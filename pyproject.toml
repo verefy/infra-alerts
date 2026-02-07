@@ -1,6 +1,6 @@
 [project]
 name = "infra-alerts"
-version = "0.1.0"
+version = "0.2.0"
 description = "Verefy infrastructure monitoring and alerting"
 readme = "README.md"
 requires-python = ">=3.13"

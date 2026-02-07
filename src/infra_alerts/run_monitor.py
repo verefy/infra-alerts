@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import hashlib
 from datetime import UTC, datetime, timedelta
+from importlib.metadata import PackageNotFoundError, version
 from typing import Any
 from zoneinfo import ZoneInfo
 
@@ -81,6 +82,43 @@ def primary_monitor_id_for_target(settings: Settings, target_key: str) -> str | 
 def build_alert_id(source: str, summary: str, timestamp: datetime) -> str:
     raw = f"{source}|{summary}|{timestamp.replace(second=0, microsecond=0).isoformat()}"
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:24]
+
+
+def current_app_version() -> str:
+    try:
+        return version("infra-alerts")
+    except PackageNotFoundError:
+        return "unknown"
+
+
+def normalize_version(value: Any) -> str | None:
+    if not isinstance(value, str):
+        return None
+    normalized = value.strip()
+    return normalized if normalized else None
+
+
+def version_transition_alert(
+    previous_version: str | None,
+    current_version: str,
+    now: datetime,
+    first_run: bool,
+) -> AlertPayload | None:
+    if first_run:
+        return None
+    if previous_version == current_version:
+        return None
+    previous_label = previous_version if previous_version is not None else "unknown"
+    return AlertPayload(
+        alert_id=build_alert_id("release", f"{previous_label}->{current_version}", now),
+        source="release",
+        level="info",
+        title=f"🚀 Infra Alerts updated to v{current_version}",
+        body=f"Version changed from v{previous_label} to v{current_version}.",
+        links=[],
+        created_at=now,
+        tags=["release", "version"],
+    )
 
 
 def event_to_alert(event: ChangeEvent) -> AlertPayload:
@@ -285,6 +323,17 @@ async def run() -> int:
             log.warning("invalid_pending_alert_dropped", pending=pending_raw_item)
 
     new_alerts: list[AlertPayload] = []
+    current_version = current_app_version()
+    previous_version = normalize_version(meta.get("deployed_version"))
+    version_alert = version_transition_alert(
+        previous_version=previous_version,
+        current_version=current_version,
+        now=now,
+        first_run=first_run,
+    )
+    if version_alert is not None:
+        new_alerts.append(version_alert)
+    meta["deployed_version"] = current_version
 
     def target_state(target_key: str) -> dict[str, Any]:
         current = targets.get(target_key)
@@ -561,7 +610,7 @@ async def run() -> int:
                 source="bootstrap",
                 level="info",
                 title="🚀 Verefy Infra Alerts initialized",
-                body="Monitoring initialized for 8 targets across X and twitterapi.io.",
+                body=f"Monitoring initialized for 8 targets across X and twitterapi.io. Version: v{current_version}.",
                 links=[],
                 created_at=now,
                 tags=["bootstrap"],

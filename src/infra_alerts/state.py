@@ -26,6 +26,7 @@ def default_state() -> dict[str, Any]:
             "last_successful_run": None,
             "watchdog_alerted": False,
             "sent_alert_ids": [],
+            "deployed_version": None,
         },
     }
 
