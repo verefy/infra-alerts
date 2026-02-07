@@ -139,9 +139,9 @@
     "failed_checks": [],
     "last_sent_date": null
   },
-  "last_updated": "2026-02-07T06:07:10.546774+00:00",
+  "last_updated": "2026-02-07T07:01:38.604389+00:00",
   "meta": {
-    "last_successful_run": "2026-02-07T06:07:04.077676+00:00",
+    "last_successful_run": "2026-02-07T07:01:32.867039+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -154,7 +154,7 @@
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-07T06:07:04.077676+00:00",
+      "last_checked": "2026-02-07T07:01:32.867039+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -181,12 +181,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-02-07T06:07:04.077676+00:00",
+      "last_checked": "2026-02-07T07:01:32.867039+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-07T06:07:04.077676+00:00",
+      "last_checked": "2026-02-07T07:01:32.867039+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -208,9 +208,9 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/affiliate-program": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/articles": "2026-02-07T06:07:09.830Z",
+        "https://twitterapi.io": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/affiliate-program": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/articles": "2026-02-07T07:01:37.484Z",
         "https://twitterapi.io/articles/best-twitter-data-apis-small-business-analytics-2026": "2026-01-30T13:17:29.066Z",
         "https://twitterapi.io/articles/bypassing-twitter-api-restrictions-solutions-that-work": "2026-01-25T07:57:15.574Z",
         "https://twitterapi.io/articles/historical-tweet-data-methods-access-past-content": "2026-01-25T07:54:17.574Z",
@@ -223,20 +223,20 @@
         "https://twitterapi.io/articles/twitter-api-rate-limits-vs-alternative-solutions": "2026-01-25T07:26:36.264Z",
         "https://twitterapi.io/articles/twitter-data-collection-checklist-research-projects": "2026-01-25T07:58:20.966Z",
         "https://twitterapi.io/articles/twitter-hashtag-analyzer": "2026-01-26T01:15:03.439Z",
-        "https://twitterapi.io/blog/": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/blog/apify-alternative-for-twitter": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/blog/build-twitter-apps-with-kiro-ai-ide": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/blog/resources-and-tools": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/blog/twitter-analytics-api-guide": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/blog/twitter-api-pricing-2025": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/changelog": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/contact": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/payment": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/pricing": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/privacy": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/qps-limits": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/readme": "2026-02-07T06:07:09.830Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-02-07T06:07:09.830Z"
+        "https://twitterapi.io/blog/": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/blog/apify-alternative-for-twitter": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/blog/build-twitter-apps-with-kiro-ai-ide": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/blog/resources-and-tools": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/blog/twitter-analytics-api-guide": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/blog/twitter-api-pricing-2025": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/changelog": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/contact": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/payment": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/pricing": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/privacy": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/qps-limits": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/readme": "2026-02-07T07:01:37.484Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-02-07T07:01:37.484Z"
       }
     },
     "twitterapi_status": {
@@ -244,7 +244,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:5845b34a4ed2b8379122021e17c40967497cda598d402cd718fccaf0756fa7e0",
       "incident_alerted": false,
-      "last_checked": "2026-02-07T06:07:04.077676+00:00",
+      "last_checked": "2026-02-07T07:01:32.867039+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -376,12 +376,12 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-02-07T06:07:04.077676+00:00",
+      "last_checked": "2026-02-07T07:01:32.867039+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-07T06:07:04.077676+00:00",
+      "last_checked": "2026-02-07T07:01:32.867039+00:00",
       "last_commit_sha": "ff9e6d07129209c0d6997ea5a1b3732efd866754",
       "last_error": null
     },
@@ -390,7 +390,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:6a05df6b9d448f74c9d121785d5c100c9e52eb64e4a4088d8ed3fd9579baf112",
       "incident_alerted": true,
-      "last_checked": "2026-02-07T06:07:04.077676+00:00",
+      "last_checked": "2026-02-07T07:01:32.867039+00:00",
       "last_error": null,
       "pending_incident_since": "2026-02-07T00:30:07.012655+00:00",
       "phase": "monitoring",
@@ -400,7 +400,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-07T06:07:04.077676+00:00",
+      "last_checked": "2026-02-07T07:01:32.867039+00:00",
       "last_error": null
     }
   },
