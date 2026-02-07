@@ -44,15 +44,31 @@ def _hash_text(value: str) -> str:
     return hashlib.sha256(value.encode("utf-8")).hexdigest()
 
 
+def _matches_patterns(url: str, include_patterns: list[str], exclude_patterns: list[str]) -> bool:
+    lowered = url.lower()
+    if include_patterns and not any(pattern.lower() in lowered for pattern in include_patterns):
+        return False
+    if any(pattern.lower() in lowered for pattern in exclude_patterns):
+        return False
+    return True
+
+
 async def check_sitemap(
     target: str,
     sitemap_url: str,
     previous_state: dict[str, Any],
     fetcher: AsyncFetcher,
     now: datetime,
+    include_patterns: list[str],
+    exclude_patterns: list[str],
 ) -> CheckResult:
     xml_text = await fetcher.get_text(sitemap_url)
     current_map = _parse_sitemap(xml_text)
+    filtered_map = {
+        url: lastmod
+        for url, lastmod in current_map.items()
+        if _matches_patterns(url, include_patterns=include_patterns, exclude_patterns=exclude_patterns)
+    }
 
     previous_map_raw = previous_state.get("page_lastmods", {})
     previous_map = previous_map_raw if isinstance(previous_map_raw, dict) else {}
@@ -64,14 +80,14 @@ async def check_sitemap(
             target=target,
             events=[],
             state_update={
-                "page_lastmods": current_map,
+                "page_lastmods": filtered_map,
                 "page_hashes": previous_hashes,
                 "last_checked": now.isoformat(),
             },
         )
 
     changed_urls: list[str] = []
-    for url, lastmod in current_map.items():
+    for url, lastmod in filtered_map.items():
         if url not in previous_map or previous_map.get(url) != lastmod:
             changed_urls.append(url)
 
@@ -111,7 +127,7 @@ async def check_sitemap(
         target=target,
         events=events,
         state_update={
-            "page_lastmods": current_map,
+            "page_lastmods": filtered_map,
             "page_hashes": updated_hashes,
             "last_checked": now.isoformat(),
         },

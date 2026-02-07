@@ -4,17 +4,17 @@ on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
   actions: read
 
+concurrency:
+  group: infra-alerts-monitor
+  cancel-in-progress: false
+
 jobs:
   monitor:
-    if: github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip ci]')
     runs-on: ubuntu-latest
 
     steps:
@@ -23,42 +23,18 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Detect overlap
-        id: overlap
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const runs = await github.rest.actions.listWorkflowRunsForRepo({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              status: 'in_progress',
-              per_page: 100,
-            });
-            const overlapping = runs.data.workflow_runs.filter((run) => run.name === context.workflow && run.id !== context.runId);
-            if (overlapping.length > 0) {
-              core.notice(`Skipping run ${context.runId} because another run is active: ${overlapping[0].id}`);
-              core.setOutput('skip', 'true');
-            } else {
-              core.setOutput('skip', 'false');
-            }
-
       - name: Setup Python
-        if: steps.overlap.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
 
       - name: Setup uv
-        if: steps.overlap.outputs.skip != 'true'
         uses: astral-sh/setup-uv@v4
 
       - name: Install dependencies
-        if: steps.overlap.outputs.skip != 'true'
         run: uv sync
 
       - name: Run monitor
-        if: steps.overlap.outputs.skip != 'true'
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
@@ -75,7 +51,6 @@ jobs:
         run: uv run python -m infra_alerts.run_monitor
 
       - name: Commit state changes
-        if: steps.overlap.outputs.skip != 'true'
         run: |
           if git diff --quiet -- state/state.json state/pending_alerts.json; then
             echo "No state changes"

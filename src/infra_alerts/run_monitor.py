@@ -63,7 +63,7 @@ def phase_to_level(phase: str) -> AlertLevel:
 
 
 def is_backup_non_operational(phase: str) -> bool:
-    return phase in {"major_outage", "partial_outage", "degraded", "maintenance", "monitoring"}
+    return phase in {"major_outage", "partial_outage", "degraded", "maintenance"}
 
 
 def is_primary_non_operational(state: str) -> bool:
@@ -529,6 +529,8 @@ async def run() -> int:
                         previous_state=t_state,
                         fetcher=fetcher,
                         now=now,
+                        include_patterns=settings.sitemap_include_patterns,
+                        exclude_patterns=settings.sitemap_exclude_patterns,
                     )
                 t_state.update(result.state_update)
                 t_state["consecutive_failures"] = 0

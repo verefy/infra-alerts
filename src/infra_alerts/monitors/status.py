@@ -25,7 +25,11 @@ def _extract_text(html: str) -> str:
 
 def _phase_from_text(text: str) -> str:
     lowered = text.lower()
-    if "all systems operational" in lowered or "active incidents 0" in lowered:
+    if (
+        "all systems are operational" in lowered
+        or "all systems operational" in lowered
+        or "active incidents 0" in lowered
+    ):
         return "operational"
     if "major outage" in lowered:
         return "major_outage"
@@ -35,7 +39,7 @@ def _phase_from_text(text: str) -> str:
         return "degraded"
     if "maintenance" in lowered:
         return "maintenance"
-    if "monitoring" in lowered or "incident" in lowered:
+    if "monitoring incident" in lowered or "currently monitoring" in lowered:
         return "monitoring"
     if "operational" in lowered:
         return "operational"

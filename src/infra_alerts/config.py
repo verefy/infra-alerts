@@ -32,6 +32,14 @@ class Settings(BaseSettings):
     x_changelog_url: str = Field(default="https://docs.x.com/changelog", alias="X_CHANGELOG_URL")
     twitterapi_changelog_url: str = Field(default="https://twitterapi.io/changelog", alias="TWITTERAPI_CHANGELOG_URL")
     twitterapi_sitemap_url: str = Field(default="https://twitterapi.io/sitemap.xml", alias="TWITTERAPI_SITEMAP_URL")
+    twitterapi_sitemap_include_patterns: str = Field(
+        default="/readme,/tweet-filter-rules,/changelog,/twitter/,/oapi/",
+        alias="TWITTERAPI_SITEMAP_INCLUDE_PATTERNS",
+    )
+    twitterapi_sitemap_exclude_patterns: str = Field(
+        default="/blog,/articles,/pricing,/qps-limits,/privacy,/contact,/payment,/affiliate-program",
+        alias="TWITTERAPI_SITEMAP_EXCLUDE_PATTERNS",
+    )
     github_docs_repo: str = Field(default="xdevplatform/docs", alias="GITHUB_DOCS_REPO")
 
     status_interval_minutes: int = Field(default=5, alias="STATUS_INTERVAL_MINUTES")
@@ -42,7 +50,7 @@ class Settings(BaseSettings):
 
     status_backup_alert_delay_minutes: int = Field(default=10, alias="STATUS_BACKUP_ALERT_DELAY_MINUTES")
     unreachable_alert_after_failures: int = Field(default=3, alias="UNREACHABLE_ALERT_AFTER_FAILURES")
-    watchdog_max_silence_minutes: int = Field(default=20, alias="WATCHDOG_MAX_SILENCE_MINUTES")
+    watchdog_max_silence_minutes: int = Field(default=60, alias="WATCHDOG_MAX_SILENCE_MINUTES")
 
     max_links_per_alert: int = Field(default=20, alias="MAX_LINKS_PER_ALERT")
     retry_plan_minutes: str = Field(default="1,5,15,60", alias="RETRY_PLAN_MINUTES")
@@ -81,6 +89,14 @@ class Settings(BaseSettings):
     def retry_minutes(self) -> list[int]:
         values = [chunk.strip() for chunk in self.retry_plan_minutes.split(",") if chunk.strip()]
         return [int(item) for item in values]
+
+    @property
+    def sitemap_include_patterns(self) -> list[str]:
+        return [item.strip() for item in self.twitterapi_sitemap_include_patterns.split(",") if item.strip()]
+
+    @property
+    def sitemap_exclude_patterns(self) -> list[str]:
+        return [item.strip() for item in self.twitterapi_sitemap_exclude_patterns.split(",") if item.strip()]
 
 
 @lru_cache(maxsize=1)

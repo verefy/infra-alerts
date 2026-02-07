@@ -6,6 +6,7 @@ from typing import Any
 import pytest
 
 from infra_alerts.monitors.github_docs import check_github_docs
+from infra_alerts.monitors.sitemap import check_sitemap
 from infra_alerts.monitors.status import check_status_page
 from infra_alerts.monitors.tweets import check_account_tweets
 
@@ -116,3 +117,41 @@ async def test_github_docs_detects_new_commits() -> None:
     )
     assert len(result.events) == 1
     assert "Update docs" in result.events[0].summary
+
+
+@pytest.mark.asyncio
+async def test_sitemap_filters_marketing_noise() -> None:
+    fetcher = FakeFetcher(
+        {
+            "https://twitterapi.io/sitemap.xml": (
+                "<?xml version='1.0' encoding='UTF-8'?>"
+                "<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>"
+                "<url><loc>https://twitterapi.io/readme</loc><lastmod>2026-02-07T10:00:00.000Z</lastmod></url>"
+                "<url><loc>https://twitterapi.io/pricing</loc><lastmod>2026-02-07T10:00:00.000Z</lastmod></url>"
+                "</urlset>"
+            ),
+            "https://twitterapi.io/readme": (
+                "<html><head><title>Readme</title></head><body><h1>API Docs</h1></body></html>"
+            ),
+        }
+    )
+    now = datetime.now(UTC)
+    previous_state = {
+        "page_lastmods": {
+            "https://twitterapi.io/readme": "2026-02-07T09:00:00.000Z",
+        },
+        "page_hashes": {},
+    }
+
+    result = await check_sitemap(
+        target="twitterapi_sitemap",
+        sitemap_url="https://twitterapi.io/sitemap.xml",
+        previous_state=previous_state,
+        fetcher=fetcher,
+        now=now,
+        include_patterns=["/readme", "/tweet-filter-rules", "/changelog", "/twitter/", "/oapi/"],
+        exclude_patterns=["/pricing", "/blog", "/articles"],
+    )
+    assert len(result.events) == 1
+    assert result.events[0].link == "https://twitterapi.io/readme"
+    assert "pricing" not in result.state_update["page_lastmods"]
