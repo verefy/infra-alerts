@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 1,
+    "alerts_sent": 5,
     "changes": [
       {
         "kind": "incident_started",
@@ -8,23 +8,153 @@
         "severity": "warning",
         "summary": "Incident detected: monitoring",
         "target": "x_status"
+      },
+      {
+        "kind": "status_update",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "warning",
+        "summary": "Status update: monitoring",
+        "target": "x_status"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits | REAL-TIMEPUBLIC SOCIAL DATA",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Pricing - TwitterAPI.io | Simple, Transparent Pricing",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits | QPS Limits",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits | Privacy Policy",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits | Let's Connect",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits | Recharge Your Account",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: TwitterAPI.io Affiliate Program - Earn Up to 12% Recurring Commissions",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: TwitterAPI.io - Enterprise-Grade Twitter Data API | No Auth Required",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Changelog | TwitterAPI.io - Latest Updates and New Features | TwitterAPI.io Changelog",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits | Articles",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: TwitterAPI.io Blog: Insights on Twitter Data and Social Media Analytics | TwitterAPI.io Blog",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits | Essential Resources and Tools for Twitter API Developers",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits | Apify Alternative for Twitter Data",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits | How to Build Twitter Apps with Kiro AI IDE: Complete Integration Guide with TwitterAPI.io",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits | Twitter API Pricing 2025: A Full Cost Breakdown & Cheaper Alternatives",
+        "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-02-07T03:11:51.418991+00:00",
+        "severity": "info",
+        "summary": "Updated page: Affordable, Real-Time X (Twitter) API \u2014 No Limits | The Ultimate Guide to Twitter Analytics with an API (2025)",
+        "target": "twitterapi_sitemap"
       }
     ],
     "failed_checks": [],
     "last_sent_date": null
   },
-  "last_updated": "2026-02-07T00:31:10.109915+00:00",
+  "last_updated": "2026-02-07T03:12:03.582950+00:00",
   "meta": {
-    "last_successful_run": "2026-02-07T00:31:09.668298+00:00",
+    "last_successful_run": "2026-02-07T03:11:51.418991+00:00",
     "sent_alert_ids": [
-      "6847d6c29429ed7457f59534"
+      "6847d6c29429ed7457f59534",
+      "12a4ba5d37d29d164f4c586c",
+      "b498f5521ddbecea7a71a4b6",
+      "fa9ced92d2c93625cd88f5e7",
+      "7d38572f851e3746c34999b8"
     ],
-    "watchdog_alerted": false
+    "watchdog_alerted": true
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-07T00:30:07.012655+00:00",
+      "last_checked": "2026-02-07T03:11:51.418991+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -51,18 +181,36 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-02-07T00:30:07.012655+00:00",
+      "last_checked": "2026-02-07T03:11:51.418991+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-07T00:30:07.012655+00:00",
+      "last_checked": "2026-02-07T03:11:51.418991+00:00",
       "last_error": null,
-      "page_hashes": {},
+      "page_hashes": {
+        "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
+        "https://twitterapi.io/affiliate-program": "c665e139f1a1e006a43e89ef1ab937674b92662a37b23c94f95c69a12f974829",
+        "https://twitterapi.io/articles": "f3b905b91a4a81a0a6b83b53d4a671ecb7018985e03ca2f0f9b1e24c1b69c18b",
+        "https://twitterapi.io/blog/": "2dc2d3b8e361f95014b5b463bae4df8069a1d17df38db4983d4c27e3cc30e9a3",
+        "https://twitterapi.io/blog/apify-alternative-for-twitter": "1f8e0bcb3df565b6e8b19d69c4c6ffd2044455bf79ce354b04602d22cc2d72a0",
+        "https://twitterapi.io/blog/build-twitter-apps-with-kiro-ai-ide": "4fd98f79483e806bba595820eab9601cb90096e3f4f6d7d8aaf7e795df943a38",
+        "https://twitterapi.io/blog/resources-and-tools": "9a6cbbf1924327172f4e6da639eff0c3ea722fea0e304e6e1244048e8f77dd27",
+        "https://twitterapi.io/blog/twitter-analytics-api-guide": "c2d2f538d20cb1890e56b70628a79fc83ce7af05e8f6dee4a3341114e01c3acf",
+        "https://twitterapi.io/blog/twitter-api-pricing-2025": "446a07ab265a86bb92d9443e51c4d6113a94c1aa6f619262fd2606adcb55671e",
+        "https://twitterapi.io/changelog": "d47be278eaebc16cf6776aad4f3f257a629a14abf21295b20d82b2eabd69025f",
+        "https://twitterapi.io/contact": "38cad70604a863b5949195dc95dae0fefd51b921a9e5b1779013dec4eeec1b34",
+        "https://twitterapi.io/payment": "021721a7b8fc328b35dd864a1fb413d6f43bc5885d809be1e427110b1210f214",
+        "https://twitterapi.io/pricing": "f0f78fc14e5cbead3cc3a16db8862dd2f31d8bda46e6e57da585012122a89a6e",
+        "https://twitterapi.io/privacy": "a1c89c447a7b463c76cbcd9cb48ddf778349fc665db764776ddcd78eeb9d3719",
+        "https://twitterapi.io/qps-limits": "5d3f75be426610f1e1a6e7bf48a100c2bd2e47757cea023091d0997d6e8e047e",
+        "https://twitterapi.io/readme": "8fcdc4a509c6ade0098642b1806d51b99760a45c4142809d04d2215e3d8f4db5",
+        "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
+      },
       "page_lastmods": {
-        "https://twitterapi.io": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/affiliate-program": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/articles": "2026-02-07T00:30:11.901Z",
+        "https://twitterapi.io": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/affiliate-program": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/articles": "2026-02-07T03:11:57.584Z",
         "https://twitterapi.io/articles/best-twitter-data-apis-small-business-analytics-2026": "2026-01-30T13:17:29.066Z",
         "https://twitterapi.io/articles/bypassing-twitter-api-restrictions-solutions-that-work": "2026-01-25T07:57:15.574Z",
         "https://twitterapi.io/articles/historical-tweet-data-methods-access-past-content": "2026-01-25T07:54:17.574Z",
@@ -75,20 +223,20 @@
         "https://twitterapi.io/articles/twitter-api-rate-limits-vs-alternative-solutions": "2026-01-25T07:26:36.264Z",
         "https://twitterapi.io/articles/twitter-data-collection-checklist-research-projects": "2026-01-25T07:58:20.966Z",
         "https://twitterapi.io/articles/twitter-hashtag-analyzer": "2026-01-26T01:15:03.439Z",
-        "https://twitterapi.io/blog/": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/blog/apify-alternative-for-twitter": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/blog/build-twitter-apps-with-kiro-ai-ide": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/blog/resources-and-tools": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/blog/twitter-analytics-api-guide": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/blog/twitter-api-pricing-2025": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/changelog": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/contact": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/payment": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/pricing": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/privacy": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/qps-limits": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/readme": "2026-02-07T00:30:11.901Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-02-07T00:30:11.901Z"
+        "https://twitterapi.io/blog/": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/blog/apify-alternative-for-twitter": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/blog/build-twitter-apps-with-kiro-ai-ide": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/blog/resources-and-tools": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/blog/twitter-analytics-api-guide": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/blog/twitter-api-pricing-2025": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/changelog": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/contact": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/payment": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/pricing": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/privacy": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/qps-limits": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/readme": "2026-02-07T03:11:57.584Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-02-07T03:11:57.584Z"
       }
     },
     "twitterapi_status": {
@@ -96,7 +244,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:5845b34a4ed2b8379122021e17c40967497cda598d402cd718fccaf0756fa7e0",
       "incident_alerted": false,
-      "last_checked": "2026-02-07T00:30:07.012655+00:00",
+      "last_checked": "2026-02-07T03:11:51.418991+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -228,21 +376,21 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-02-07T00:30:07.012655+00:00",
+      "last_checked": "2026-02-07T03:11:51.418991+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-07T00:30:07.012655+00:00",
+      "last_checked": "2026-02-07T03:11:51.418991+00:00",
       "last_commit_sha": "ff9e6d07129209c0d6997ea5a1b3732efd866754",
       "last_error": null
     },
     "x_status": {
-      "backup_alert_active": false,
+      "backup_alert_active": true,
       "consecutive_failures": 0,
-      "content_hash": "sha256:af82192030f4ddaef1f89987eebd21deaac2a9e3176d7918297fc00242681d7e",
+      "content_hash": "sha256:6a05df6b9d448f74c9d121785d5c100c9e52eb64e4a4088d8ed3fd9579baf112",
       "incident_alerted": true,
-      "last_checked": "2026-02-07T00:30:07.012655+00:00",
+      "last_checked": "2026-02-07T03:11:51.418991+00:00",
       "last_error": null,
       "pending_incident_since": "2026-02-07T00:30:07.012655+00:00",
       "phase": "monitoring",
@@ -252,7 +400,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-07T00:30:07.012655+00:00",
+      "last_checked": "2026-02-07T03:11:51.418991+00:00",
       "last_error": null
     }
   },
