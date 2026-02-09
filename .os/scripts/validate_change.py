@@ -73,7 +73,7 @@ def _change_ids_from_paths(paths: Iterable[str]) -> set[str]:
     ids: set[str] = set()
     for p in paths:
         parts = p.split("/")
-        if len(parts) >= 2 and parts[0] == "changes":
+        if len(parts) >= 3 and parts[0] == "changes":
             ids.add(parts[1])
     return ids
 
