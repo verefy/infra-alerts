@@ -398,9 +398,7 @@ async def run() -> int:
 
                 monitor_id = primary_monitor_id_for_target(settings, target_key)
                 primary_state = (
-                    primary_monitor_states.get(monitor_id, "unknown")
-                    if monitor_id is not None
-                    else "unknown"
+                    primary_monitor_states.get(monitor_id, "unknown") if monitor_id is not None else "unknown"
                 )
                 t_state["primary_state"] = primary_state
 
@@ -469,9 +467,8 @@ async def run() -> int:
                 t_state["last_error"] = str(exc)
                 t_state["last_checked"] = now.isoformat()
                 record_failed_check(state, target_key, str(exc), now)
-                if (
-                    failures >= settings.unreachable_alert_after_failures
-                    and not bool(t_state.get("unreachable_alerted", False))
+                if failures >= settings.unreachable_alert_after_failures and not bool(
+                    t_state.get("unreachable_alerted", False)
                 ):
                     new_alerts.append(
                         AlertPayload(
