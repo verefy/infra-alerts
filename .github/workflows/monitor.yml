@@ -13,7 +13,6 @@ on:
 
 permissions:
   contents: write
-  actions: read
 
 concurrency:
   group: infra-alerts-monitor
@@ -30,6 +29,39 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Ensure state branch exists
+        run: |
+          set -euo pipefail
+          STATE_BRANCH="state"
+
+          if git ls-remote --exit-code --heads origin "${STATE_BRANCH}" >/dev/null; then
+            echo "State branch exists: ${STATE_BRANCH}"
+            exit 0
+          fi
+
+          echo "Creating state branch: ${STATE_BRANCH}"
+          git branch "${STATE_BRANCH}"
+          git push origin "${STATE_BRANCH}"
+
+      - name: Checkout state branch
+        uses: actions/checkout@v4
+        with:
+          ref: state
+          path: .state-branch
+          fetch-depth: 0
+
+      - name: Restore state
+        run: |
+          set -euo pipefail
+
+          if [ -f ".state-branch/state/state.json" ]; then
+            cp ".state-branch/state/state.json" "state/state.json"
+          fi
+
+          if [ -f ".state-branch/state/pending_alerts.json" ]; then
+            cp ".state-branch/state/pending_alerts.json" "state/pending_alerts.json"
+          fi
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -39,7 +71,7 @@ jobs:
         uses: astral-sh/setup-uv@v4
 
       - name: Install dependencies
-        run: uv sync
+        run: uv sync --frozen
 
       - name: Run monitor
         env:
@@ -57,8 +89,18 @@ jobs:
           ALLOW_EMAIL_FALLBACK: "true"
         run: uv run python -m infra_alerts.run_monitor
 
-      - name: Commit state changes
+      - name: Commit state changes (state branch)
         run: |
+          set -euo pipefail
+
+          STATE_BRANCH="state"
+
+          mkdir -p ".state-branch/state"
+          cp "state/state.json" ".state-branch/state/state.json"
+          cp "state/pending_alerts.json" ".state-branch/state/pending_alerts.json"
+
+          cd ".state-branch"
+
           if git diff --quiet -- state/state.json state/pending_alerts.json; then
             echo "No state changes"
             exit 0
@@ -70,7 +112,7 @@ jobs:
           git commit -m "chore(state): update monitoring state [skip ci]"
 
           for attempt in 1 2 3; do
-            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin HEAD:"${GITHUB_REF_NAME}" && exit 0
+            git pull --rebase origin "${STATE_BRANCH}" && git push origin HEAD:"${STATE_BRANCH}" && exit 0
             echo "Push attempt ${attempt} failed, retrying..."
             sleep $((attempt * 2))
           done
