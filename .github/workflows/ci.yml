@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Skip OS validation (Dependabot)
         if: ${{ github.actor == 'dependabot[bot]' }}
-        run: echo "Dependabot PR: skipping changes/<change-id> enforcement."
+        run: 'echo "Dependabot PR: skipping changes/<change-id> enforcement."'
 
       - name: Checkout
         if: ${{ github.actor != 'dependabot[bot]' }}
