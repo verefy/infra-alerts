@@ -13,22 +13,28 @@ jobs:
   os-validate:
     runs-on: ubuntu-latest
     steps:
+      - name: Skip OS validation (Dependabot)
+        if: ${{ github.actor == 'dependabot[bot]' }}
+        run: echo "Dependabot PR: skipping changes/<change-id> enforcement."
+
       - name: Checkout
+        if: ${{ github.actor != 'dependabot[bot]' }}
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Setup Python
+        if: ${{ github.actor != 'dependabot[bot]' }}
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
 
       - name: Validate (PR)
-        if: ${{ github.event_name == 'pull_request' }}
+        if: ${{ github.actor != 'dependabot[bot]' && github.event_name == 'pull_request' }}
         run: python .os/scripts/validate_change.py --base "${{ github.event.pull_request.base.sha }}" --head "${{ github.event.pull_request.head.sha }}"
 
       - name: Validate (push)
-        if: ${{ github.event_name != 'pull_request' }}
+        if: ${{ github.actor != 'dependabot[bot]' && github.event_name != 'pull_request' }}
         run: python .os/scripts/validate_change.py --base "${{ github.event.before }}" --head "${{ github.sha }}"
 
   python-checks:
