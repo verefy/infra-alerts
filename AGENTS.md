@@ -7,8 +7,7 @@ This repo is set up for agent-driven development without turning into chaos. `ma
 - If you change anything substantive, include `changes/<change-id>/` with all required docs (CI enforces this).
 - Keep changes small. Split unrelated work into separate PRs / change-ids.
 - Never commit secrets. Use GitHub Actions secrets / `.env` (untracked) + `.env.example` (tracked).
-- `main` requires: PR, 1 approval, and strict CI checks (your branch must be up-to-date with `main` before merge).
-  - Note: GitHub does not allow the PR author to approve their own PR.
+- `main` requires: PR and strict CI checks (your branch must be up-to-date with `main` before merge).
 
 ## What Counts As "Substantive"
 | Example | Requires `changes/<change-id>/` |
