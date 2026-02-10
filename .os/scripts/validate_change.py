@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 _META_PREFIXES = (".github/", ".os/")
-_META_FILES = (".editorconfig", ".gitattributes", ".gitignore", "README.md")
+_META_FILES = (".editorconfig", ".gitattributes", ".gitignore", "README.md", "AGENTS.md")
 _REQUIRED_CHANGE_FILES = (
     "acceptance.md",
     "assumptions.md",
