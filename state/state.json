@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 32,
+    "alerts_sent": 33,
     "changes": [
       {
         "kind": "incident_started",
@@ -160,10 +160,10 @@
     "failed_checks": [],
     "last_sent_date": "2026-02-10"
   },
-  "last_updated": "2026-02-10T15:54:31.485604+00:00",
+  "last_updated": "2026-02-10T15:56:20.018872+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-02-10T15:54:25.437432+00:00",
+    "last_successful_run": "2026-02-10T15:56:19.389199+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -196,9 +196,10 @@
       "0fd6f3a8d301fff529900afc",
       "daily-digest-2026-02-10",
       "a6635e5acd1ac0f8de6aa7db",
-      "9735d4b5c5430469499be57a"
+      "9735d4b5c5430469499be57a",
+      "272e51872d75b4cf468c1468"
     ],
-    "watchdog_alerted": true
+    "watchdog_alerted": false
   },
   "targets": {
     "api_tweets": {
