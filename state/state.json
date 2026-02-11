@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 46,
+    "alerts_sent": 48,
     "changes": [
       {
         "kind": "incident_started",
@@ -162,15 +162,29 @@
         "severity": "info",
         "summary": "Commit: Remove v1 media upload docs and update references to v2 endpoints | files: changelog.mdx, x-ads-api/campaign-management.mdx, x-ads-api/creatives.mdx",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-02-11T20:24:21.036086+00:00",
+        "severity": "info",
+        "summary": "Commit: Update docs | files: docs.json",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-02-11T20:24:21.036086+00:00",
+        "severity": "info",
+        "summary": "Commit: fix | files: overview.mdx",
+        "target": "x_docs_github"
       }
     ],
     "failed_checks": [],
     "last_sent_date": "2026-02-11"
   },
-  "last_updated": "2026-02-11T19:45:07.454824+00:00",
+  "last_updated": "2026-02-11T20:24:28.583202+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-02-11T19:45:00.310248+00:00",
+    "last_successful_run": "2026-02-11T20:24:21.036086+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -217,14 +231,16 @@
       "db629a265c0be69923e9b128",
       "394d949f01d34c3c49bde3c3",
       "45c9a4ec3c1dd33604d82b7d",
-      "b5566e6a37993a6cc1ca5ba3"
+      "b5566e6a37993a6cc1ca5ba3",
+      "4b23f21e042395bb4ad17c85",
+      "6d09c9800446bcfc46aa6dbb"
     ],
-    "watchdog_alerted": true
+    "watchdog_alerted": false
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-11T19:45:00.310248+00:00",
+      "last_checked": "2026-02-11T20:24:21.036086+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -251,12 +267,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-02-11T19:45:00.310248+00:00",
+      "last_checked": "2026-02-11T20:24:21.036086+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-11T19:45:00.310248+00:00",
+      "last_checked": "2026-02-11T20:24:21.036086+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -278,9 +294,9 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-02-11T19:45:06.560Z",
-        "https://twitterapi.io/readme": "2026-02-11T19:45:06.560Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-02-11T19:45:06.560Z"
+        "https://twitterapi.io/changelog": "2026-02-11T20:24:27.611Z",
+        "https://twitterapi.io/readme": "2026-02-11T20:24:27.611Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-02-11T20:24:27.611Z"
       }
     },
     "twitterapi_status": {
@@ -288,7 +304,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:df58826c3759ed4ef62a6e2868be17fbd580669c101ebd1b1c541fa4ccea4477",
       "incident_alerted": false,
-      "last_checked": "2026-02-11T19:45:00.310248+00:00",
+      "last_checked": "2026-02-11T20:24:21.036086+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -420,21 +436,21 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-02-11T19:45:00.310248+00:00",
+      "last_checked": "2026-02-11T20:24:21.036086+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-11T19:45:00.310248+00:00",
-      "last_commit_sha": "936b039d583f544701adc56639754fa668a49a34",
+      "last_checked": "2026-02-11T20:24:21.036086+00:00",
+      "last_commit_sha": "5564d8adff0b26a4fa5170bba8b8e849d3f29f53",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:737e2c58a02b09bbeca15f534a7750eea95cad29205fcfa6819ea1e35a0baea0",
+      "content_hash": "sha256:00fba6095f38885e14372a7b1f429e80c44aed8f6e8af78ea6ec4a5b371dbd75",
       "incident_alerted": false,
-      "last_checked": "2026-02-11T19:45:00.310248+00:00",
+      "last_checked": "2026-02-11T20:24:21.036086+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -444,7 +460,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-11T19:45:00.310248+00:00",
+      "last_checked": "2026-02-11T20:24:21.036086+00:00",
       "last_error": null
     }
   },
