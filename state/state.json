@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 85,
+    "alerts_sent": 86,
     "changes": [
       {
         "kind": "incident_started",
@@ -204,6 +204,27 @@
         "severity": "info",
         "summary": "Commit: Add X for Websites + missing pages | files: developer-terms.mdx, developer-terms/display-requirements.mdx, developer-terms/reply-requirements.mdx",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "incident_started",
+        "occurred_at": "2026-02-16T19:02:10.447140+00:00",
+        "severity": "critical",
+        "summary": "Incident detected: degraded",
+        "target": "x_status"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-02-16T19:02:10.447140+00:00",
+        "severity": "info",
+        "summary": "Commit: Update status | files: incidents.mdx, status.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-02-16T19:02:10.447140+00:00",
+        "severity": "info",
+        "summary": "Commit: upate color | files: status.mdx",
+        "target": "x_docs_github"
       }
     ],
     "failed_checks": [
@@ -215,10 +236,10 @@
     ],
     "last_sent_date": "2026-02-16"
   },
-  "last_updated": "2026-02-16T18:06:18.139054+00:00",
+  "last_updated": "2026-02-16T19:02:19.546173+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-02-16T18:06:17.362324+00:00",
+    "last_successful_run": "2026-02-16T19:02:10.447140+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -304,14 +325,15 @@
       "e90c84dd4e2228a0458a49bd",
       "930bca1d59d8b88e75336940",
       "88a1082a2925c21eb0f3dc5f",
-      "0b76325390dc9c2f43201875"
+      "0b76325390dc9c2f43201875",
+      "9da9a80ebae2c1d08c10ec9f"
     ],
     "watchdog_alerted": false
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-16T17:36:48.120185+00:00",
+      "last_checked": "2026-02-16T19:02:10.447140+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -338,12 +360,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-02-16T17:36:48.120185+00:00",
+      "last_checked": "2026-02-16T19:02:10.447140+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-16T17:36:48.120185+00:00",
+      "last_checked": "2026-02-16T19:02:10.447140+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -365,9 +387,9 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-02-16T17:36:52.354Z",
-        "https://twitterapi.io/readme": "2026-02-16T17:36:52.354Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-02-16T17:36:52.354Z"
+        "https://twitterapi.io/changelog": "2026-02-16T19:02:18.850Z",
+        "https://twitterapi.io/readme": "2026-02-16T19:02:18.850Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-02-16T19:02:18.850Z"
       }
     },
     "twitterapi_status": {
@@ -375,7 +397,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:35345ae1ce1fe87477f3dd1d50c3de398d1bb71c5c5a5c12baca493852a7bf3d",
       "incident_alerted": false,
-      "last_checked": "2026-02-16T18:06:17.362324+00:00",
+      "last_checked": "2026-02-16T19:02:10.447140+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -507,31 +529,31 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-02-16T17:36:48.120185+00:00",
+      "last_checked": "2026-02-16T19:02:10.447140+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-16T17:36:48.120185+00:00",
-      "last_commit_sha": "cecbd8ea41518c140be6832937eba23533007f4d",
+      "last_checked": "2026-02-16T19:02:10.447140+00:00",
+      "last_commit_sha": "8361ed8f2ce449781569d38bdf0a37af7cb9b8e6",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:a1a69ad82b471714e2f1fffe423067946d4805586ada7c5976aedb23ebe067a7",
-      "incident_alerted": false,
-      "last_checked": "2026-02-16T18:06:17.362324+00:00",
+      "content_hash": "sha256:9936085caf1785a799769d61a61233802a612a75320dadcb8420dd7e90375f65",
+      "incident_alerted": true,
+      "last_checked": "2026-02-16T19:02:10.447140+00:00",
       "last_error": null,
-      "pending_incident_since": null,
-      "phase": "operational",
+      "pending_incident_since": "2026-02-16T19:02:10.447140+00:00",
+      "phase": "degraded",
       "primary_silent_since": null,
-      "primary_state": "up",
+      "primary_state": "down",
       "unreachable_alerted": false
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-16T17:36:48.120185+00:00",
+      "last_checked": "2026-02-16T19:02:10.447140+00:00",
       "last_error": null
     }
   },
