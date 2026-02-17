@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 98,
+    "alerts_sent": 99,
     "changes": [
       {
         "kind": "incident_started",
@@ -288,6 +288,13 @@
         "severity": "info",
         "summary": "Commit: Add monthly Post read cap disclaimer for pay-per-usage plans | files: x-api/fundamentals/post-cap.mdx, x-api/getting-started/about-x-api.mdx, x-api/getting-started/pricing.mdx",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-02-17T23:19:58.364813+00:00",
+        "severity": "info",
+        "summary": "Commit: Update X API v2 Postman collection URLs to new workspace | files: tutorials/postman-getting-started.mdx, x-api/compliance/streams/introduction.mdx, x-api/getting-started/important-resources.mdx",
+        "target": "x_docs_github"
       }
     ],
     "failed_checks": [
@@ -299,10 +306,10 @@
     ],
     "last_sent_date": "2026-02-17"
   },
-  "last_updated": "2026-02-17T22:50:02.554104+00:00",
+  "last_updated": "2026-02-17T23:20:04.291968+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-02-17T22:49:53.994498+00:00",
+    "last_successful_run": "2026-02-17T23:19:58.364813+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -401,14 +408,15 @@
       "1bbb69c132dd38b1044be6c5",
       "11375460eff5c30a70398db0",
       "e4f868f62170d1d855c1ef1e",
-      "9c9776c03bd4c8a061cf061c"
+      "9c9776c03bd4c8a061cf061c",
+      "0fd507268d708eecb3c5c45e"
     ],
     "watchdog_alerted": false
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-17T22:49:53.994498+00:00",
+      "last_checked": "2026-02-17T23:19:58.364813+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -435,12 +443,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-02-17T22:49:53.994498+00:00",
+      "last_checked": "2026-02-17T23:19:58.364813+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-17T22:49:53.994498+00:00",
+      "last_checked": "2026-02-17T23:19:58.364813+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -462,9 +470,9 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-02-17T22:50:01.948Z",
-        "https://twitterapi.io/readme": "2026-02-17T22:50:01.948Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-02-17T22:50:01.948Z"
+        "https://twitterapi.io/changelog": "2026-02-17T23:20:03.569Z",
+        "https://twitterapi.io/readme": "2026-02-17T23:20:03.569Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-02-17T23:20:03.569Z"
       }
     },
     "twitterapi_status": {
@@ -472,7 +480,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:35345ae1ce1fe87477f3dd1d50c3de398d1bb71c5c5a5c12baca493852a7bf3d",
       "incident_alerted": false,
-      "last_checked": "2026-02-17T22:49:53.994498+00:00",
+      "last_checked": "2026-02-17T23:19:58.364813+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -604,21 +612,21 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-02-17T22:49:53.994498+00:00",
+      "last_checked": "2026-02-17T23:19:58.364813+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-17T22:49:53.994498+00:00",
-      "last_commit_sha": "d5fe4016e35b87db3fde6e462bb8acbff0cf7d2d",
+      "last_checked": "2026-02-17T23:19:58.364813+00:00",
+      "last_commit_sha": "edee2385935fa9bbb572e6cb56df6a0266013b1b",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:7b1f14ef4cf6cf345d6f17157ed58bf9cd45899581f2748b821a22292eed314a",
+      "content_hash": "sha256:68164c794f323fbc626e92231516a1ef27e54ddf3120505154fecd2806d0e1cb",
       "incident_alerted": false,
-      "last_checked": "2026-02-17T22:49:53.994498+00:00",
+      "last_checked": "2026-02-17T23:19:58.364813+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -628,7 +636,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-17T22:49:53.994498+00:00",
+      "last_checked": "2026-02-17T23:19:58.364813+00:00",
       "last_error": null
     }
   },
