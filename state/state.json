@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 86,
+    "alerts_sent": 87,
     "changes": [
       {
         "kind": "incident_started",
@@ -246,6 +246,13 @@
         "severity": "critical",
         "summary": "Status update: degraded",
         "target": "x_status"
+      },
+      {
+        "kind": "status_update",
+        "occurred_at": "2026-02-17T02:29:18.434944+00:00",
+        "severity": "critical",
+        "summary": "Status update: degraded",
+        "target": "x_status"
       }
     ],
     "failed_checks": [
@@ -257,10 +264,10 @@
     ],
     "last_sent_date": "2026-02-16"
   },
-  "last_updated": "2026-02-16T23:54:44.383845+00:00",
+  "last_updated": "2026-02-17T02:29:27.558370+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-02-16T23:54:43.456608+00:00",
+    "last_successful_run": "2026-02-17T02:29:18.434944+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -347,14 +354,15 @@
       "930bca1d59d8b88e75336940",
       "88a1082a2925c21eb0f3dc5f",
       "0b76325390dc9c2f43201875",
-      "9da9a80ebae2c1d08c10ec9f"
+      "9da9a80ebae2c1d08c10ec9f",
+      "a24286e3519f4fb5a58990a7"
     ],
-    "watchdog_alerted": false
+    "watchdog_alerted": true
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-16T23:25:20.823736+00:00",
+      "last_checked": "2026-02-17T02:29:18.434944+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -381,12 +389,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-02-16T23:25:20.823736+00:00",
+      "last_checked": "2026-02-17T02:29:18.434944+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-16T23:25:20.823736+00:00",
+      "last_checked": "2026-02-17T02:29:18.434944+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -408,9 +416,9 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-02-16T23:25:26.605Z",
-        "https://twitterapi.io/readme": "2026-02-16T23:25:26.605Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-02-16T23:25:26.605Z"
+        "https://twitterapi.io/changelog": "2026-02-17T02:29:26.609Z",
+        "https://twitterapi.io/readme": "2026-02-17T02:29:26.609Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-02-17T02:29:26.609Z"
       }
     },
     "twitterapi_status": {
@@ -418,7 +426,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:35345ae1ce1fe87477f3dd1d50c3de398d1bb71c5c5a5c12baca493852a7bf3d",
       "incident_alerted": false,
-      "last_checked": "2026-02-16T23:54:43.456608+00:00",
+      "last_checked": "2026-02-17T02:29:18.434944+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -550,21 +558,21 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-02-16T23:25:20.823736+00:00",
+      "last_checked": "2026-02-17T02:29:18.434944+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-16T23:25:20.823736+00:00",
+      "last_checked": "2026-02-17T02:29:18.434944+00:00",
       "last_commit_sha": "8361ed8f2ce449781569d38bdf0a37af7cb9b8e6",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:571dc1f1710e224133a4e597c34db581d122c0cc63dfa9ab8c148c8b656dc9cb",
+      "content_hash": "sha256:25fe7fc75acb74d2c18164613566abc905dfe0eab198265708da6c8a22534bd1",
       "incident_alerted": true,
-      "last_checked": "2026-02-16T23:54:43.456608+00:00",
+      "last_checked": "2026-02-17T02:29:18.434944+00:00",
       "last_error": null,
       "pending_incident_since": "2026-02-16T19:02:10.447140+00:00",
       "phase": "degraded",
@@ -574,7 +582,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-02-16T23:25:20.823736+00:00",
+      "last_checked": "2026-02-17T02:29:18.434944+00:00",
       "last_error": null
     }
   },
