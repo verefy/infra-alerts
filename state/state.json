@@ -432,10 +432,10 @@
     ],
     "last_sent_date": "2026-02-27"
   },
-  "last_updated": "2026-02-27T19:42:31.705288+00:00",
+  "last_updated": "2026-02-27T20:02:11.262187+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-02-27T19:42:25.319890+00:00",
+    "last_successful_run": "2026-02-27T20:02:10.431732+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -692,7 +692,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:35345ae1ce1fe87477f3dd1d50c3de398d1bb71c5c5a5c12baca493852a7bf3d",
       "incident_alerted": false,
-      "last_checked": "2026-02-27T19:42:25.319890+00:00",
+      "last_checked": "2026-02-27T20:02:10.431732+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -836,9 +836,9 @@
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:d0e7c31613072a3bf85cf15e0699632fa5aa931e78823fb441f84285c82cd4cf",
+      "content_hash": "sha256:2b48ceb92cc51c44e3f3701341f320fbffe58760ac27c000776008ccee6c947e",
       "incident_alerted": false,
-      "last_checked": "2026-02-27T19:42:25.319890+00:00",
+      "last_checked": "2026-02-27T20:02:10.431732+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
