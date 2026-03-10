@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 257,
+    "alerts_sent": 258,
     "changes": [
       {
         "kind": "incident_started",
@@ -442,6 +442,20 @@
         "severity": "info",
         "summary": "Commit: Hide DPA campaign guide from navigation | files: x-ads-api/guides/create-a-dpa-campaign.mdx",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-03-10T22:43:48.884797+00:00",
+        "severity": "info",
+        "summary": "Commit: Remove DPA campaign guide from public documentation | files: docs.json, x-ads-api/guides/create-a-dpa-campaign.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-03-10T22:43:48.884797+00:00",
+        "severity": "info",
+        "summary": "Commit: Merge pull request #62 from xdevplatform/mintlify/remove-dpa-campaign-1773179221 | files: docs.json, x-ads-api/guides/create-a-dpa-campaign.mdx",
+        "target": "x_docs_github"
       }
     ],
     "failed_checks": [
@@ -453,10 +467,10 @@
     ],
     "last_sent_date": "2026-03-10"
   },
-  "last_updated": "2026-03-10T22:01:30.992156+00:00",
+  "last_updated": "2026-03-10T22:43:54.637318+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-03-10T22:01:23.712153+00:00",
+    "last_successful_run": "2026-03-10T22:43:48.884797+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -714,14 +728,15 @@
       "48afb2d38ff29b8e72b79da9",
       "32950b8b6b38fe68d40fce2c",
       "1be700beb41ab19cc8e1ffd8",
-      "f317f4a7d2c4a00df78d9a83"
+      "f317f4a7d2c4a00df78d9a83",
+      "bf6a63a3691921fc376ea7e2"
     ],
     "watchdog_alerted": false
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-03-10T22:01:23.712153+00:00",
+      "last_checked": "2026-03-10T22:43:48.884797+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -748,12 +763,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-03-10T22:01:23.712153+00:00",
+      "last_checked": "2026-03-10T22:43:48.884797+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-03-10T22:01:23.712153+00:00",
+      "last_checked": "2026-03-10T22:43:48.884797+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -775,9 +790,9 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-03-10T22:01:29.988Z",
-        "https://twitterapi.io/readme": "2026-03-10T22:01:29.988Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-03-10T22:01:29.988Z"
+        "https://twitterapi.io/changelog": "2026-03-10T22:43:53.782Z",
+        "https://twitterapi.io/readme": "2026-03-10T22:43:53.782Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-03-10T22:43:53.782Z"
       }
     },
     "twitterapi_status": {
@@ -785,7 +800,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:35345ae1ce1fe87477f3dd1d50c3de398d1bb71c5c5a5c12baca493852a7bf3d",
       "incident_alerted": false,
-      "last_checked": "2026-03-10T22:01:23.712153+00:00",
+      "last_checked": "2026-03-10T22:43:48.884797+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -917,21 +932,21 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-03-10T22:01:23.712153+00:00",
+      "last_checked": "2026-03-10T22:43:48.884797+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-03-10T22:01:23.712153+00:00",
-      "last_commit_sha": "b0f2f43284c310abc5bdbc11b1f6ecaee4159e97",
+      "last_checked": "2026-03-10T22:43:48.884797+00:00",
+      "last_commit_sha": "8af872709c5e3b5a11aa86d4ce2b4d19be54de16",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:d4b380e75a20c1c54ef07c52671276316e7663d5a56520e64c972e1049393aa4",
+      "content_hash": "sha256:1022cbcb6c726ba0cbf522727ea5651cb547bfd35618cc59a4200cd84b50f37a",
       "incident_alerted": false,
-      "last_checked": "2026-03-10T22:01:23.712153+00:00",
+      "last_checked": "2026-03-10T22:43:48.884797+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -941,7 +956,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-03-10T22:01:23.712153+00:00",
+      "last_checked": "2026-03-10T22:43:48.884797+00:00",
       "last_error": null
     }
   },
