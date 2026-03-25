@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 369,
+    "alerts_sent": 370,
     "changes": [
       {
         "kind": "incident_started",
@@ -663,10 +663,10 @@
     ],
     "last_sent_date": "2026-03-25"
   },
-  "last_updated": "2026-03-25T10:03:28.218407+00:00",
+  "last_updated": "2026-03-25T10:09:03.304403+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-03-25T10:03:20.001543+00:00",
+    "last_successful_run": "2026-03-25T10:09:02.323934+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -1036,9 +1036,10 @@
       "083aba21b382dbcfca29580e",
       "64b4395b31a83b83305dcaa3",
       "b60a8d0ae9cede3f1c610a54",
-      "daily-digest-2026-03-25"
+      "daily-digest-2026-03-25",
+      "66f3e7df152fe3b95c350995"
     ],
-    "watchdog_alerted": true
+    "watchdog_alerted": false
   },
   "targets": {
     "api_tweets": {
@@ -1107,7 +1108,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:35345ae1ce1fe87477f3dd1d50c3de398d1bb71c5c5a5c12baca493852a7bf3d",
       "incident_alerted": false,
-      "last_checked": "2026-03-25T10:03:20.001543+00:00",
+      "last_checked": "2026-03-25T10:09:02.323934+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -1253,7 +1254,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:b2c2eb3c876a574cf59c8f9e6cd22e8503c81bd2197c7e57a2b4e9d9da96f870",
       "incident_alerted": true,
-      "last_checked": "2026-03-25T10:03:20.001543+00:00",
+      "last_checked": "2026-03-25T10:09:02.323934+00:00",
       "last_error": null,
       "pending_incident_since": "2026-03-24T05:46:03.121578+00:00",
       "phase": "degraded",
