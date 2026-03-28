@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 400,
+    "alerts_sent": 403,
     "changes": [
       {
         "kind": "incident_started",
@@ -778,6 +778,27 @@
         "severity": "critical",
         "summary": "Status update: degraded",
         "target": "x_status"
+      },
+      {
+        "kind": "status_update",
+        "occurred_at": "2026-03-28T00:56:54.512972+00:00",
+        "severity": "critical",
+        "summary": "Status update: degraded",
+        "target": "x_status"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-03-28T00:56:54.512972+00:00",
+        "severity": "info",
+        "summary": "Commit: update status page | files: docs.json, incidents.mdx, status.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-03-28T00:56:54.512972+00:00",
+        "severity": "info",
+        "summary": "Commit: Update status.mdx | files: status.mdx",
+        "target": "x_docs_github"
       }
     ],
     "failed_checks": [
@@ -789,10 +810,10 @@
     ],
     "last_sent_date": "2026-03-27"
   },
-  "last_updated": "2026-03-27T23:45:46.481879+00:00",
+  "last_updated": "2026-03-28T00:57:01.011940+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-03-27T23:45:40.328063+00:00",
+    "last_successful_run": "2026-03-28T00:56:54.512972+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -1193,14 +1214,17 @@
       "8465e933b39c737f2e3559d4",
       "757f6af0e6ade93d68dfe344",
       "fd296601cdb9ebbd1c5ab2bd",
-      "76bc8e11aa78e7ff8fc7c449"
+      "76bc8e11aa78e7ff8fc7c449",
+      "c47906d5f9ffe0ae2c0ef356",
+      "f501bf2b41552c1ae0b44f22",
+      "9d00070d8977faee403b3fae"
     ],
-    "watchdog_alerted": false
+    "watchdog_alerted": true
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-03-27T23:45:40.328063+00:00",
+      "last_checked": "2026-03-28T00:56:54.512972+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -1227,12 +1251,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-03-27T23:45:40.328063+00:00",
+      "last_checked": "2026-03-28T00:56:54.512972+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-03-27T23:45:40.328063+00:00",
+      "last_checked": "2026-03-28T00:56:54.512972+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -1254,9 +1278,9 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-03-27T23:45:45.669Z",
-        "https://twitterapi.io/readme": "2026-03-27T23:45:45.669Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-03-27T23:45:45.669Z"
+        "https://twitterapi.io/changelog": "2026-03-28T00:56:59.747Z",
+        "https://twitterapi.io/readme": "2026-03-28T00:56:59.747Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-03-28T00:56:59.747Z"
       }
     },
     "twitterapi_status": {
@@ -1264,7 +1288,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:35345ae1ce1fe87477f3dd1d50c3de398d1bb71c5c5a5c12baca493852a7bf3d",
       "incident_alerted": false,
-      "last_checked": "2026-03-27T23:45:40.328063+00:00",
+      "last_checked": "2026-03-28T00:56:54.512972+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -1396,21 +1420,21 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-03-27T23:45:40.328063+00:00",
+      "last_checked": "2026-03-28T00:56:54.512972+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-03-27T23:45:40.328063+00:00",
-      "last_commit_sha": "553cca1f04d4e89205f449797b08f7f5900b8b45",
+      "last_checked": "2026-03-28T00:56:54.512972+00:00",
+      "last_commit_sha": "bef7ad574d390adb6c61efe70671562af348a9b1",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": true,
       "consecutive_failures": 0,
-      "content_hash": "sha256:75e4bcabd47fc839207538555e8ae6a4b84610e645ce43015723ac9635a5dc12",
+      "content_hash": "sha256:149bfc787b788ffca87035bd963e3e9b391c76a2601f74b82f1d6fcbd6de086e",
       "incident_alerted": true,
-      "last_checked": "2026-03-27T23:45:40.328063+00:00",
+      "last_checked": "2026-03-28T00:56:54.512972+00:00",
       "last_error": null,
       "pending_incident_since": "2026-03-24T05:46:03.121578+00:00",
       "phase": "degraded",
@@ -1420,7 +1444,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-03-27T23:45:40.328063+00:00",
+      "last_checked": "2026-03-28T00:56:54.512972+00:00",
       "last_error": null
     }
   },
