@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 439,
+    "alerts_sent": 440,
     "changes": [
       {
         "kind": "incident_started",
@@ -932,6 +932,41 @@
         "severity": "info",
         "summary": "Commit: Update tools and libraries docs | files: docs.json, overview.mdx, support.mdx",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-04-01T04:22:06.081745+00:00",
+        "severity": "info",
+        "summary": "Commit: Add dedicated Enterprise section | files: docs.json, enterprise-api/account-activity/create-replay-job.mdx, enterprise-api/account-activity/create-subscription.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-04-01T04:22:06.081745+00:00",
+        "severity": "info",
+        "summary": "Commit: Update overview.mdx | files: overview.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-04-01T04:22:06.081745+00:00",
+        "severity": "info",
+        "summary": "Commit: Update overview.mdx | files: overview.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-04-01T04:22:06.081745+00:00",
+        "severity": "info",
+        "summary": "Commit: Update overview.mdx | files: overview.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-04-01T04:22:06.081745+00:00",
+        "severity": "info",
+        "summary": "Commit: Update overview.mdx | files: overview.mdx",
+        "target": "x_docs_github"
       }
     ],
     "failed_checks": [
@@ -943,10 +978,10 @@
     ],
     "last_sent_date": "2026-03-31"
   },
-  "last_updated": "2026-04-01T01:10:58.535213+00:00",
+  "last_updated": "2026-04-01T04:22:14.160268+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-04-01T01:10:53.640152+00:00",
+    "last_successful_run": "2026-04-01T04:22:06.081745+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -1386,14 +1421,15 @@
       "8dfe345e68e4d7c8ff525e63",
       "0e7808ac81ad08dfe5ac7ed7",
       "7a6467f365d7ed30806646f7",
-      "a2a2b95fed1ff2f05fb76aa0"
+      "a2a2b95fed1ff2f05fb76aa0",
+      "5e1e527093561485f1b02cd4"
     ],
     "watchdog_alerted": true
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-01T01:10:53.640152+00:00",
+      "last_checked": "2026-04-01T04:22:06.081745+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -1420,12 +1456,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-04-01T01:10:53.640152+00:00",
+      "last_checked": "2026-04-01T04:22:06.081745+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-01T01:10:53.640152+00:00",
+      "last_checked": "2026-04-01T04:22:06.081745+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -1447,9 +1483,9 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-04-01T01:10:57.837Z",
-        "https://twitterapi.io/readme": "2026-04-01T01:10:57.837Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-04-01T01:10:57.837Z"
+        "https://twitterapi.io/changelog": "2026-04-01T04:22:13.178Z",
+        "https://twitterapi.io/readme": "2026-04-01T04:22:13.178Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-04-01T04:22:13.178Z"
       }
     },
     "twitterapi_status": {
@@ -1457,7 +1493,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:35345ae1ce1fe87477f3dd1d50c3de398d1bb71c5c5a5c12baca493852a7bf3d",
       "incident_alerted": false,
-      "last_checked": "2026-04-01T01:10:53.640152+00:00",
+      "last_checked": "2026-04-01T04:22:06.081745+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -1589,21 +1625,21 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-04-01T01:10:53.640152+00:00",
+      "last_checked": "2026-04-01T04:22:06.081745+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-01T01:10:53.640152+00:00",
-      "last_commit_sha": "e028564f69bdde6a2c7fb8a09ff6c09159a7ceb0",
+      "last_checked": "2026-04-01T04:22:06.081745+00:00",
+      "last_commit_sha": "bd0a6669ee1f82ce4182fab64ed1cf30f4e7d8e7",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:8e8e6bc28589efbea3a2fbd2e9d91d76c1d8dfe50d178910c645a8ee2ba33ef6",
+      "content_hash": "sha256:bed98d003106d8b322d030b1920ad877479690e6eb867352029235cd132afdf4",
       "incident_alerted": false,
-      "last_checked": "2026-04-01T01:10:53.640152+00:00",
+      "last_checked": "2026-04-01T04:22:06.081745+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -1613,7 +1649,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-01T01:10:53.640152+00:00",
+      "last_checked": "2026-04-01T04:22:06.081745+00:00",
       "last_error": null
     }
   },
