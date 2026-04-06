@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 477,
+    "alerts_sent": 478,
     "changes": [
       {
         "kind": "incident_started",
@@ -1009,6 +1009,27 @@
         "severity": "info",
         "summary": "Commit: Add AI & LLM resources page | files: docs.json, overview.mdx, tools-and-libraries.mdx",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-04-06T23:36:42.804453+00:00",
+        "severity": "info",
+        "summary": "Commit: Restructure Tools & Libraries section and rename ai-docs to ai | files: docs.json, overview.mdx, tools-and-libraries.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-04-06T23:36:42.804453+00:00",
+        "severity": "info",
+        "summary": "Commit: Rename AI & LLM Resources to Agent Resources | files: docs.json, overview.mdx, tools-and-libraries.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-04-06T23:36:42.804453+00:00",
+        "severity": "info",
+        "summary": "Commit: Move Agent Resources into its own section with robot icon | files: docs.json",
+        "target": "x_docs_github"
       }
     ],
     "failed_checks": [
@@ -1020,10 +1041,10 @@
     ],
     "last_sent_date": "2026-04-06"
   },
-  "last_updated": "2026-04-06T22:53:56.466899+00:00",
+  "last_updated": "2026-04-06T23:36:48.948011+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-04-06T22:53:49.299207+00:00",
+    "last_successful_run": "2026-04-06T23:36:42.804453+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -1501,14 +1522,15 @@
       "4b72cece0ab16a1d79b8898a",
       "baea2e9ebe9f12f96f8c9948",
       "a4d21a86e88fc792020ce56e",
-      "236ca5e176c1c4e27c6f8d58"
+      "236ca5e176c1c4e27c6f8d58",
+      "85f1feb6a8b5390ce149fd4a"
     ],
     "watchdog_alerted": false
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-06T22:53:49.299207+00:00",
+      "last_checked": "2026-04-06T23:36:42.804453+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -1535,12 +1557,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-04-06T22:53:49.299207+00:00",
+      "last_checked": "2026-04-06T23:36:42.804453+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-06T22:53:49.299207+00:00",
+      "last_checked": "2026-04-06T23:36:42.804453+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -1562,9 +1584,9 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-04-06T22:53:55.618Z",
-        "https://twitterapi.io/readme": "2026-04-06T22:53:55.618Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-04-06T22:53:55.618Z"
+        "https://twitterapi.io/changelog": "2026-04-06T23:36:48.228Z",
+        "https://twitterapi.io/readme": "2026-04-06T23:36:48.228Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-04-06T23:36:48.228Z"
       }
     },
     "twitterapi_status": {
@@ -1572,7 +1594,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:35345ae1ce1fe87477f3dd1d50c3de398d1bb71c5c5a5c12baca493852a7bf3d",
       "incident_alerted": false,
-      "last_checked": "2026-04-06T22:53:49.299207+00:00",
+      "last_checked": "2026-04-06T23:36:42.804453+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -1704,21 +1726,21 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-04-06T22:53:49.299207+00:00",
+      "last_checked": "2026-04-06T23:36:42.804453+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-06T22:53:49.299207+00:00",
-      "last_commit_sha": "28d726bb9f55c099589d908919e68a0ddaeda2ab",
+      "last_checked": "2026-04-06T23:36:42.804453+00:00",
+      "last_commit_sha": "2eccb85d1d759266276463048c47fa775f9c7654",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:49daf308b574146137750a0e6022c582738c77737c4e11efbe8f073a44c63cec",
+      "content_hash": "sha256:2b6965270812ea5fa18e9a5483fc07d1d59de4bc80bd4f3e31b72caea99cf36b",
       "incident_alerted": false,
-      "last_checked": "2026-04-06T22:53:49.299207+00:00",
+      "last_checked": "2026-04-06T23:36:42.804453+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -1728,7 +1750,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-06T22:53:49.299207+00:00",
+      "last_checked": "2026-04-06T23:36:42.804453+00:00",
       "last_error": null
     }
   },
