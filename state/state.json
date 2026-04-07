@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 479,
+    "alerts_sent": 480,
     "changes": [
       {
         "kind": "incident_started",
@@ -1030,6 +1030,13 @@
         "severity": "info",
         "summary": "Commit: Move Agent Resources into its own section with robot icon | files: docs.json",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-04-07T05:27:54.104029+00:00",
+        "severity": "info",
+        "summary": "Commit: Fix icon alignment for Tools & Libraries and Agent Resources | files: docs.json, overview.mdx, style.css",
+        "target": "x_docs_github"
       }
     ],
     "failed_checks": [
@@ -1041,10 +1048,10 @@
     ],
     "last_sent_date": "2026-04-06"
   },
-  "last_updated": "2026-04-07T03:28:37.791633+00:00",
+  "last_updated": "2026-04-07T05:27:59.846137+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-04-07T03:28:32.018884+00:00",
+    "last_successful_run": "2026-04-07T05:27:54.104029+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -1524,14 +1531,15 @@
       "a4d21a86e88fc792020ce56e",
       "236ca5e176c1c4e27c6f8d58",
       "85f1feb6a8b5390ce149fd4a",
-      "20b20d132b891b23e82d4b4e"
+      "20b20d132b891b23e82d4b4e",
+      "a47c4b6a7d457806fcc16f2c"
     ],
     "watchdog_alerted": true
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-07T03:28:32.018884+00:00",
+      "last_checked": "2026-04-07T05:27:54.104029+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -1558,12 +1566,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-04-07T03:28:32.018884+00:00",
+      "last_checked": "2026-04-07T05:27:54.104029+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-07T03:28:32.018884+00:00",
+      "last_checked": "2026-04-07T05:27:54.104029+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -1585,9 +1593,9 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-04-07T03:28:37.111Z",
-        "https://twitterapi.io/readme": "2026-04-07T03:28:37.111Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-04-07T03:28:37.111Z"
+        "https://twitterapi.io/changelog": "2026-04-07T05:27:58.955Z",
+        "https://twitterapi.io/readme": "2026-04-07T05:27:58.955Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-04-07T05:27:58.955Z"
       }
     },
     "twitterapi_status": {
@@ -1595,7 +1603,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:35345ae1ce1fe87477f3dd1d50c3de398d1bb71c5c5a5c12baca493852a7bf3d",
       "incident_alerted": false,
-      "last_checked": "2026-04-07T03:28:32.018884+00:00",
+      "last_checked": "2026-04-07T05:27:54.104029+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -1727,21 +1735,21 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-04-07T03:28:32.018884+00:00",
+      "last_checked": "2026-04-07T05:27:54.104029+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-07T03:28:32.018884+00:00",
-      "last_commit_sha": "2eccb85d1d759266276463048c47fa775f9c7654",
+      "last_checked": "2026-04-07T05:27:54.104029+00:00",
+      "last_commit_sha": "f6b93579f10e81e28edbbc0db7c8982fae6584d6",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:2b6965270812ea5fa18e9a5483fc07d1d59de4bc80bd4f3e31b72caea99cf36b",
+      "content_hash": "sha256:4f4b988dfe6eab3303173b1a2fd8102e7cd32465be630065e339fa79905bc0a7",
       "incident_alerted": false,
-      "last_checked": "2026-04-07T03:28:32.018884+00:00",
+      "last_checked": "2026-04-07T05:27:54.104029+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -1751,7 +1759,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-07T03:28:32.018884+00:00",
+      "last_checked": "2026-04-07T05:27:54.104029+00:00",
       "last_error": null
     }
   },
