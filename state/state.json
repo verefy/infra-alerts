@@ -1114,6 +1114,13 @@
         "severity": "info",
         "summary": "Commit: Revert \"Update status.mdx for X API degradation\" | files: status.mdx",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "incident_resolved",
+        "occurred_at": "2026-04-14T21:53:03.923450+00:00",
+        "severity": "resolved",
+        "summary": "Service recovered and is operational",
+        "target": "x_status"
       }
     ],
     "failed_checks": [
@@ -1135,10 +1142,10 @@
     ],
     "last_sent_date": "2026-04-14"
   },
-  "last_updated": "2026-04-14T21:28:36.663073+00:00",
+  "last_updated": "2026-04-14T21:53:05.072383+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-04-14T21:28:24.221929+00:00",
+    "last_successful_run": "2026-04-14T21:53:03.923450+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -1731,7 +1738,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:8d031ee5d77012b03fc7c9e550b7d0d43ae50a7c288853ffc0377f312c032040",
       "incident_alerted": false,
-      "last_checked": "2026-04-14T21:28:24.221929+00:00",
+      "last_checked": "2026-04-14T21:53:03.923450+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -1875,13 +1882,13 @@
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:4e487cefc0f9e598c9d212a6e834fc193dc6a064df01882ee9479789d783f4c4",
-      "incident_alerted": true,
-      "last_checked": "2026-04-14T21:28:24.221929+00:00",
+      "content_hash": "sha256:3b4d3e7f65f2d53090d2f3f95fbdaef7d81cf1eb29f72e69804c1dd92b95d6ed",
+      "incident_alerted": false,
+      "last_checked": "2026-04-14T21:53:03.923450+00:00",
       "last_error": null,
-      "pending_incident_since": "2026-04-14T21:28:24.221929+00:00",
-      "phase": "degraded",
-      "primary_silent_since": "2026-04-14T21:28:24.221929+00:00",
+      "pending_incident_since": null,
+      "phase": "operational",
+      "primary_silent_since": null,
       "primary_state": "paused",
       "unreachable_alerted": false
     },
