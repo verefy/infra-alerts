@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 521,
+    "alerts_sent": 522,
     "changes": [
       {
         "kind": "incident_started",
@@ -1121,6 +1121,13 @@
         "severity": "resolved",
         "summary": "Service recovered and is operational",
         "target": "x_status"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-04-14T22:14:54.482738+00:00",
+        "severity": "info",
+        "summary": "Commit: Update status.mdx | files: status.mdx",
+        "target": "x_docs_github"
       }
     ],
     "failed_checks": [
@@ -1142,10 +1149,10 @@
     ],
     "last_sent_date": "2026-04-14"
   },
-  "last_updated": "2026-04-14T21:53:05.072383+00:00",
+  "last_updated": "2026-04-14T22:15:01.404197+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-04-14T21:53:03.923450+00:00",
+    "last_successful_run": "2026-04-14T22:14:54.482738+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -1667,14 +1674,15 @@
       "22bbc56b737dad7c009e0ce8",
       "daily-digest-2026-04-14",
       "2c3d6629382b14ec6ccf02a7",
-      "b63810b5773bfcfe2d7111a5"
+      "b63810b5773bfcfe2d7111a5",
+      "757af208d5ba2b9b4282f724"
     ],
     "watchdog_alerted": false
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-14T21:28:24.221929+00:00",
+      "last_checked": "2026-04-14T22:14:54.482738+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -1701,12 +1709,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-04-14T21:28:24.221929+00:00",
+      "last_checked": "2026-04-14T22:14:54.482738+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-14T21:28:24.221929+00:00",
+      "last_checked": "2026-04-14T22:14:54.482738+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -1728,9 +1736,9 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-04-14T21:28:35.486Z",
-        "https://twitterapi.io/readme": "2026-04-14T21:28:35.486Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-04-14T21:28:35.486Z"
+        "https://twitterapi.io/changelog": "2026-04-14T22:15:00.789Z",
+        "https://twitterapi.io/readme": "2026-04-14T22:15:00.789Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-04-14T22:15:00.789Z"
       }
     },
     "twitterapi_status": {
@@ -1738,7 +1746,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:8d031ee5d77012b03fc7c9e550b7d0d43ae50a7c288853ffc0377f312c032040",
       "incident_alerted": false,
-      "last_checked": "2026-04-14T21:53:03.923450+00:00",
+      "last_checked": "2026-04-14T22:14:54.482738+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -1870,13 +1878,13 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-04-14T21:28:24.221929+00:00",
+      "last_checked": "2026-04-14T22:14:54.482738+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-14T21:28:24.221929+00:00",
-      "last_commit_sha": "b342c59aa6a5c32593a40e0fb08b18ca2fb15b55",
+      "last_checked": "2026-04-14T22:14:54.482738+00:00",
+      "last_commit_sha": "e4e201cc560047484edb84f07c9d168010815779",
       "last_error": null
     },
     "x_status": {
@@ -1884,7 +1892,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:3b4d3e7f65f2d53090d2f3f95fbdaef7d81cf1eb29f72e69804c1dd92b95d6ed",
       "incident_alerted": false,
-      "last_checked": "2026-04-14T21:53:03.923450+00:00",
+      "last_checked": "2026-04-14T22:14:54.482738+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -1894,7 +1902,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-14T21:28:24.221929+00:00",
+      "last_checked": "2026-04-14T22:14:54.482738+00:00",
       "last_error": null
     }
   },
