@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 551,
+    "alerts_sent": 552,
     "changes": [
       {
         "kind": "incident_started",
@@ -1170,6 +1170,13 @@
         "severity": "info",
         "summary": "Commit: Update banner | files: overview.mdx",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-04-22T04:58:53.613835+00:00",
+        "severity": "info",
+        "summary": "Commit: Add firehose streaming endpoints to recovery and redundancy docs | files: enterprise-api/fundamentals/recovery-and-redundancy.mdx, x-api/fundamentals/recovery-and-redundancy.mdx",
+        "target": "x_docs_github"
       }
     ],
     "failed_checks": [
@@ -1386,10 +1393,10 @@
     ],
     "last_sent_date": "2026-04-21"
   },
-  "last_updated": "2026-04-22T03:53:57.803798+00:00",
+  "last_updated": "2026-04-22T04:59:03.236955+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-04-22T03:53:46.119410+00:00",
+    "last_successful_run": "2026-04-22T04:58:53.613835+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -1941,14 +1948,15 @@
       "f1929389534a0b00a5d35ff3",
       "daily-digest-2026-04-21",
       "b1dda54ed189f65ab87c32d2",
-      "2945f15afab1973573703ebe"
+      "2945f15afab1973573703ebe",
+      "1776db8002ed6babaae508a6"
     ],
     "watchdog_alerted": true
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-22T03:53:46.119410+00:00",
+      "last_checked": "2026-04-22T04:58:53.613835+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -1975,12 +1983,12 @@
         "458f3b8d4e3a3dedfd03e7c5ef2ba825c38df28aef24daab96fd308ebad6cf7e",
         "dd9221a8864cc0b9ee703db3a930ff4873dac77a949de7eb79667ed199e9a1b2"
       ],
-      "last_checked": "2026-04-22T03:53:46.119410+00:00",
+      "last_checked": "2026-04-22T04:58:53.613835+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-22T03:53:46.119410+00:00",
+      "last_checked": "2026-04-22T04:58:53.613835+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -2002,17 +2010,17 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-04-22T03:53:57.180Z",
-        "https://twitterapi.io/readme": "2026-04-22T03:53:57.180Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-04-22T03:53:57.180Z"
+        "https://twitterapi.io/changelog": "2026-04-22T04:59:01.910Z",
+        "https://twitterapi.io/readme": "2026-04-22T04:59:01.910Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-04-22T04:59:01.910Z"
       }
     },
     "twitterapi_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:132bbaf67cf518a83093edceb9e4d2b5b346de932ab5796354a4434a35353c3d",
+      "content_hash": "sha256:a9a885683d5c141de82a2c6c715b3235eec92831db39391acde54c1664319072",
       "incident_alerted": false,
-      "last_checked": "2026-04-22T03:53:46.119410+00:00",
+      "last_checked": "2026-04-22T04:58:53.613835+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -2144,21 +2152,21 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-04-22T03:53:46.119410+00:00",
+      "last_checked": "2026-04-22T04:58:53.613835+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-22T03:53:46.119410+00:00",
-      "last_commit_sha": "7f1baa69a2b9471ce21260b26efbe50ca98e377a",
+      "last_checked": "2026-04-22T04:58:53.613835+00:00",
+      "last_commit_sha": "1650c45f0b6b92470b67c9283c9df8ddc4d2d206",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:c5e80405f7680aa4b395bdb9ade28270094d3244d0cc7b5f522478c8f82913bb",
+      "content_hash": "sha256:21fd4d0e688cfcdbf8e0b7b56da123b476fe9527b8f8ebeb2f0b2ac0a599beb3",
       "incident_alerted": false,
-      "last_checked": "2026-04-22T03:53:46.119410+00:00",
+      "last_checked": "2026-04-22T04:58:53.613835+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -2168,7 +2176,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-04-22T03:53:46.119410+00:00",
+      "last_checked": "2026-04-22T04:58:53.613835+00:00",
       "last_error": null
     }
   },
