@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 600,
+    "alerts_sent": 601,
     "changes": [
       {
         "kind": "incident_started",
@@ -1317,6 +1317,34 @@
         "severity": "info",
         "summary": "Commit: Update ads-api-agreement.mdx | files: developer-terms/ads-api-agreement.mdx",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-02T10:11:23.445224+00:00",
+        "severity": "info",
+        "summary": "self.__next_f.push([1,\"7:[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"container mx-auto px-4 py-12 max-w-5xl\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"space-y-8\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-center mb-12\\\",\\\"children\\\":[[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"text-4xl font-bold tracking-tight mb-4\\\",\\\"children\\\":\\\"TwitterAPI.io Changelog\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-xl text-gray-500 dark:text-gray-400 max-w-3xl mx-auto\\\",\\\"children\\\":\\\"Stay up-to-date with the latest features, improvements, and bug fixes for TwitterAPI.io\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"space-y-12\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-0 top-0 -ml-4 h-full w-0.5 bg-gradient-to-b from-blue-500 to-purple-500 hidden md:block\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-0 top-0 -ml-6 h-12 w-12 rounded-full bg-gray-900 border-4 border-blue-500 flex items-center justify-center hidden md:flex\\\",\\\"children\\\":[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"text-white text-xl font-bold\\\",\\\"children\\\":\\\"\u2713\\\"}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"md:ml-12\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex items-center mb-4\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"text-2xl font-bold\\\",\\\"children\\\":\\\"May 27, 2025 Update\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground ml-4 bg-green-500 hover:bg-green-600\\\",\\\"children\\\":\\\"New Endpoints\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"rounded-lg border bg-card text-card-foreground shadow-sm mb-8\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"flex flex-col space-y-1.5 p-6\\\",\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-2xl font-semibold leading-none tracking-tight\\\",\\\"children\\\":\\\"List Management APIs\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-sm text-muted-foreground\\\",\\\"children\\\":\\\"Two new endpoints for accessing Twitter list data\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"p-6 pt-0 space-y-4\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-lg font-semibold mb-2\\\",\\\"children\\\":\\\"New Endpoints\\\"}],[\\\"$\\\",\\\"ul\\\",null,{\\\"className\\\":\\\"space-y-3\\\",\\\"children\\\":[[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L10\\\",null,{\\\"href\\\":\\\"https://docs.twitterapi.io/api-reference/endpoint/get_list_members\\\",\\\"className\\\":\\\"text-blue-500 hover:text-blue-600 hover:underline flex items-center\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener noreferrer\\\",\\\"children\\\":[[\\\"$\\\",\\\"svg\\\",null,{\\\"xmlns\\\":\\\"http://www.w3.org/2000/svg\\\",\\\"className\\\":\\\"h-4 w-4 mr-2\\\",\\\"fill\\\":\\\"none\\\",\\\"viewBox\\\":\\\"0 0 24 24\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"strokeWidth\\\":2,\\\"d\\\":\\\"M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14\\\"}]}],\\\"Get List Members - Retrieve members of any Twitter list\\\"]}]}],[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L10\\\",null,{\\\"href\\\":\\\"https://docs.twitterapi.io/api-reference/endpoint/get_list_followers\\\",\\\"className\\\":\\\"text-blue-500 hover:text-blue-600 hover:underline flex items-center\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener noreferrer\\\",\\\"children\\\":[[\\\"$\\\",\\\"svg\\\",null,{\\\"xmlns\\\":\\\"http://www.w3.org/2000/svg\\\",\\\"className\\\":\\\"h-4 w-4 mr-2\\\",\\\"fill\\\":\\\"none\\\",\\\"viewBox\\\":\\\"0 0 24 24\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"strokeWidth\\\":2,\\\"d\\\":\\\"M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14\\\"}]}],\\\"Get List Followers - Access followers of any Twitter list\\\"]}]}]]}]]}]}]]}]]}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-0 top-0 -ml-4 h-full w-0.5 bg-gradient-to-b from-blue-500 to-purple-500 hidden md:block\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-0 top-0 -ml-6 h-12 w-12 rounded-full bg-gray-900 border-4 border-blue-500 flex items-center justify-center hidden md:flex\\\",\\\"children\\\":[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"text-white text-xl font-bold\\\",\\\"children\\\":\\\"\u2713\\\"}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"md:ml-12\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex items-center mb-4\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"text-2xl font-bold\\\",\\\"children\\\":\\\"May 22, 2025 Update\\\"}],\\\"$L13\\\"]}],\\\"$L14\\\",\\\"$L15\\\"]}]]}],\\\"$L16\\\",\\\"$L17\\\",\\\"$L18\\\",\\\"$L19\\\"]}]]}]}],null,\\\"$L1a\\\"]}]\\n\"])",
+        "target": "twitterapi_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-02T10:11:23.445224+00:00",
+        "severity": "info",
+        "summary": "self.__next_f.push([1,\"16:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-0 top-0 -ml-4 h-full w-0.5 bg-gradient-to-b from-blue-500 to-purple-500 hidden md:block\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-0 top-0 -ml-6 h-12 w-12 rounded-full bg-gray-900 border-4 border-blue-500 flex items-center justify-center hidden md:flex\\\",\\\"children\\\":[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"text-white text-xl font-bold\\\",\\\"children\\\":\\\"\u2713\\\"}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"md:ml-12\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex items-center mb-4\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"text-2xl font-bold\\\",\\\"children\\\":\\\"May 21, 2025 Update\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground ml-4 bg-green-500 hover:bg-green-600\\\",\\\"children\\\":\\\"New Endpoint\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"rounded-lg border bg-card text-card-foreground shadow-sm mb-8\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"flex flex-col space-y-1.5 p-6\\\",\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-2xl font-semibold leading-none tracking-tight\\\",\\\"children\\\":\\\"Follow Relationship Checker\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-sm text-muted-foreground\\\",\\\"children\\\":\\\"Check if two users follow each other with a single API call\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"p-6 pt-0 space-y-6\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-xl font-semibold mb-2\\\",\\\"children\\\":\\\"New Feature\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-gray-700 dark:text-gray-300\\\",\\\"children\\\":[\\\"Added new API \\\",[\\\"$\\\",\\\"code\\\",null,{\\\"children\\\":\\\"check_follow_relationship\\\"}],\\\" that allows you to determine if two users follow each other with just one API call.\\\"]}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-xl font-semibold mb-2\\\",\\\"children\\\":\\\"Documentation Reference\\\"}],[\\\"$\\\",\\\"ul\\\",null,{\\\"className\\\":\\\"space-y-3\\\",\\\"children\\\":[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L10\\\",null,{\\\"href\\\":\\\"https://docs.twitterapi.io/api-reference/endpoint/check_follow_relationship\\\",\\\"className\\\":\\\"text-blue-500 hover:text-blue-600 hover:underline flex items-center\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener noreferrer\\\",\\\"children\\\":[[\\\"$\\\",\\\"svg\\\",null,{\\\"xmlns\\\":\\\"http://www.w3.org/2000/svg\\\",\\\"className\\\":\\\"h-5 w-5 mr-2\\\",\\\"fill\\\":\\\"none\\\",\\\"viewBox\\\":\\\"0 0 24 24\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"strokeWidth\\\":2,\\\"d\\\":\\\"M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14\\\"}]}],\\\"Check Follow Relationship\\\"]}]}]}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-xl font-semibold mb-2\\\",\\\"children\\\":\\\"Benefits\\\"}],[\\\"$\\\",\\\"ul\\\",null,{\\\"className\\\":\\\"list-disc pl-6 space-y-2\\\",\\\"children\\\":[[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"font-medium\\\",\\\"children\\\":\\\"Efficiency\\\"}],\\\": Get bidirectional follow status with a single API call instead of two separate requests\\\"]}],[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"font-medium\\\",\\\"children\\\":\\\"Cost Savings\\\"}],\\\": Reduce API usage and associated costs by 50% for follow relationship checks\\\"]}],[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"font-medium\\\",\\\"children\\\":\\\"Simplified Logic\\\"}],\\\": Streamline your code with a single endpoint that returns comprehensive relationship data\\\"]}]]}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-xl font-semibold mb-2\\\",\\\"children\\\":\\\"Example Response\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"bg-gray-900 text-white p-4 rounded-md overflow-x-auto text-sm border border-gray-700\\\",\\\"children\\\":\\\"{\\\\n \\\\\\\"status\\\\\\\": \\\\\\\"success\\\\\\\",\\\\n \\\\\\\"message\\\\\\\": \\\\\\\"check follow relationship success\\\\\\\",\\\\n \\\\\\\"data\\\\\\\": {\\\\n \\\\\\\"following\\\\\\\": false,\\\\n \\\\\\\"followed_by\\\\\\\": true\\\\n }\\\\n}\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-xl font-semibold mb-2\\\",\\\"children\\\":\\\"Use Cases\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-gray-700 dark:text-gray-300\\\",\\\"children\\\":\\\"This endpoint is particularly useful for social graph analysis, mutual connection discovery, and building more efficient user relationship features in your applications.\\\"}]]}]]}]]}],\\\"$L21\\\"]}]]}]\\n\"])",
+        "target": "twitterapi_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-02T10:11:23.445224+00:00",
+        "severity": "info",
+        "summary": "self.__next_f.push([1,\"17:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-0 top-0 -ml-4 h-full w-0.5 bg-gradient-to-b from-blue-500 to-purple-500 hidden md:block\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-0 top-0 -ml-6 h-12 w-12 rounded-full bg-gray-900 border-4 border-blue-500 flex items-center justify-center hidden md:flex\\\",\\\"children\\\":[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"text-white text-xl font-bold\\\",\\\"children\\\":\\\"\u2713\\\"}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"md:ml-12\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex items-center mb-4\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"text-2xl font-bold\\\",\\\"children\\\":\\\"May 13, 2025 Update\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground ml-4 bg-green-500 hover:bg-green-600\\\",\\\"children\\\":\\\"New Endpoint\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"rounded-lg border bg-card text-card-foreground shadow-sm mb-8\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"flex flex-col space-y-1.5 p-6\\\",\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-2xl font-semibold leading-none tracking-tight\\\",\\\"children\\\":\\\"Tweet Thread Context API\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-sm text-muted-foreground\\\",\\\"children\\\":\\\"Fetch complete conversation context in a single API call\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"p-6 pt-0 space-y-6\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-xl font-semibold mb-2\\\",\\\"children\\\":\\\"New Feature\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-gray-700 dark:text-gray-300\\\",\\\"children\\\":\\\"Our latest endpoint allows developers to fetch the complete conversation context for any tweet - including parent tweets and direct replies in a single call.\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-xl font-semibold mb-2\\\",\\\"children\\\":\\\"Documentation Reference\\\"}],[\\\"$\\\",\\\"ul\\\",null,{\\\"className\\\":\\\"space-y-3\\\",\\\"children\\\":[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L10\\\",null,{\\\"href\\\":\\\"https://docs.twitterapi.io/api-reference/endpoint/get_tweet_thread_context\\\",\\\"className\\\":\\\"text-blue-500 hover:text-blue-600 hover:underline flex items-center\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener noreferrer\\\",\\\"children\\\":[[\\\"$\\\",\\\"svg\\\",null,{\\\"xmlns\\\":\\\"http://www.w3.org/2000/svg\\\",\\\"className\\\":\\\"h-5 w-5 mr-2\\\",\\\"fill\\\":\\\"none\\\",\\\"viewBox\\\":\\\"0 0 24 24\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"strokeWidth\\\":2,\\\"d\\\":\\\"M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14\\\"}]}],\\\"Get Tweet Thread Context\\\"]}]}]}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-xl font-semibold mb-2\\\",\\\"children\\\":\\\"Benefits\\\"}],[\\\"$\\\",\\\"ul\\\",null,{\\\"className\\\":\\\"list-disc pl-6 space-y-2\\\",\\\"children\\\":[[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"font-medium\\\",\\\"children\\\":\\\"Simplified Data Retrieval\\\"}],\\\": Get entire conversation threads with a single API call instead of multiple requests\\\"]}],[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"font-medium\\\",\\\"children\\\":\\\"Complete Context\\\"}],\\\": Access parent tweets, the target tweet, and direct replies in one structured response\\\"]}],[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"font-medium\\\",\\\"children\\\":\\\"Improved Performance\\\"}],\\\": Reduce API calls and latency when analyzing conversations\\\"]}]]}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-xl font-semibold mb-2\\\",\\\"children\\\":\\\"Use Cases\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"text-gray-700 dark:text-gray-300\\\",\\\"children\\\":\\\"This endpoint is particularly valuable for conversation analysis, sentiment tracking across threads, and building more context-aware social media monitoring tools. It enables developers to create richer user experiences by presenting complete conversation flows.\\\"}]]}]]}]]}]]}]]}]\\n\"])",
+        "target": "twitterapi_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-02T10:11:23.445224+00:00",
+        "severity": "info",
+        "summary": "self.__next_f.push([1,\"18:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"relative\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-0 top-0 -ml-4 h-full w-0.5 bg-gradient-to-b from-blue-500 to-purple-500 hidden md:block\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"absolute left-0 top-0 -ml-6 h-12 w-12 rounded-full bg-gray-900 border-4 border-blue-500 flex items-center justify-center hidden md:flex\\\",\\\"children\\\":[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"text-white text-xl font-bold\\\",\\\"children\\\":\\\"\u2713\\\"}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"md:ml-12\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex items-center mb-4\\\",\\\"children\\\":[[\\\"$\\\",\\\"h2\\\",null,{\\\"className\\\":\\\"text-2xl font-bold\\\",\\\"children\\\":\\\"May 10, 2025 Update\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground ml-4 bg-blue-500 hover:bg-blue-600\\\",\\\"children\\\":\\\"New Features\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"rounded-lg border bg-card text-card-foreground shadow-sm mb-8\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"flex flex-col space-y-1.5 p-6\\\",\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-2xl font-semibold leading-none tracking-tight\\\",\\\"children\\\":\\\"Tweet Interaction Endpoints\\\"}],[\\\"$\\\",\\\"p\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"text-sm text-muted-foreground\\\",\\\"children\\\":\\\"New endpoints for sending tweets and interacting with content\\\"}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"ref\\\":\\\"$undefined\\\",\\\"className\\\":\\\"p-6 pt-0 space-y-6\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-xl font-semibold mb-2\\\",\\\"children\\\":\\\"New Features\\\"}],[\\\"$\\\",\\\"ul\\\",null,{\\\"className\\\":\\\"list-disc pl-6 space-y-2\\\",\\\"children\\\":[[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"font-medium\\\",\\\"children\\\":\\\"Send Tweets\\\"}],\\\": Create and publish tweets directly through the API\\\"]}],[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"font-medium\\\",\\\"children\\\":\\\"Like Tweets\\\"}],\\\": Interact with tweets by liking them via API endpoints\\\"]}]]}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"h3\\\",null,{\\\"className\\\":\\\"text-xl font-semibold mb-2\\\",\\\"children\\\":\\\"Documentation References\\\"}],[\\\"$\\\",\\\"ul\\\",null,{\\\"className\\\":\\\"space-y-3\\\",\\\"children\\\":[[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L10\\\",null,{\\\"href\\\":\\\"https://docs.twitterapi.io/api-reference/endpoint/login_by_email_or_username\\\",\\\"className\\\":\\\"text-blue-500 hover:text-blue-600 hover:underline flex items-center\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener noreferrer\\\",\\\"children\\\":[[\\\"$\\\",\\\"svg\\\",null,{\\\"xmlns\\\":\\\"http://www.w3.org/2000/svg\\\",\\\"className\\\":\\\"h-5 w-5 mr-2\\\",\\\"fill\\\":\\\"none\\\",\\\"viewBox\\\":\\\"0 0 24 24\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"strokeWidth\\\":2,\\\"d\\\":\\\"M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14\\\"}]}],\\\"Login by Email or Username\\\"]}]}],[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L10\\\",null,{\\\"href\\\":\\\"https://docs.twitterapi.io/api-reference/endpoint/login_by_2fa\\\",\\\"className\\\":\\\"text-blue-500 hover:text-blue-600 hover:underline flex items-center\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener noreferrer\\\",\\\"children\\\":[[\\\"$\\\",\\\"svg\\\",null,{\\\"xmlns\\\":\\\"http://www.w3.org/2000/svg\\\",\\\"className\\\":\\\"h-5 w-5 mr-2\\\",\\\"fill\\\":\\\"none\\\",\\\"viewBox\\\":\\\"0 0 24 24\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"strokeWidth\\\":2,\\\"d\\\":\\\"M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14\\\"}]}],\\\"Login by 2FA\\\"]}]}],[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L10\\\",null,{\\\"href\\\":\\\"https://docs.twitterapi.io/api-reference/endpoint/create_tweet\\\",\\\"className\\\":\\\"text-blue-500 hover:text-blue-600 hover:underline flex items-center\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener noreferrer\\\",\\\"children\\\":[[\\\"$\\\",\\\"svg\\\",null,{\\\"xmlns\\\":\\\"http://www.w3.org/2000/svg\\\",\\\"className\\\":\\\"h-5 w-5 mr-2\\\",\\\"fill\\\":\\\"none\\\",\\\"viewBox\\\":\\\"0 0 24 24\\\",\\\"stroke\\\":\\\"currentColor\\\",\\\"children\\\":[\\\"$\\\",\\\"path\\\",null,{\\\"strokeLinecap\\\":\\\"round\\\",\\\"strokeLinejoin\\\":\\\"round\\\",\\\"strokeWidth\\\":2,\\\"d\\\":\\\"M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14\\\"}]}],\\\"Create Tweet\\\"]}]}],[\\\"$\\\",\\\"li\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L10\\\",null,{\\\"href\\\":\\\"https://docs.twitterapi.io/api-reference/endpoint/like_tweet\\\",\\\"className\\\":\\\"text-blue-500 hover:text-blue-600 hover:underline flex items-center\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener noreferrer\\\",\\\"children\\\":[\\\"$L22\\\",\\\"Like Tweet\\\"]}]}]]}]]}],\\\"$L23\\\"]}]]}],\\\"$L24\\\"]}]]}]\\n\"])",
+        "target": "twitterapi_changelog"
       }
     ],
     "failed_checks": [
@@ -1543,10 +1571,10 @@
     ],
     "last_sent_date": "2026-05-02"
   },
-  "last_updated": "2026-05-02T09:12:33.901547+00:00",
+  "last_updated": "2026-05-02T10:11:33.089572+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-05-02T09:12:23.459588+00:00",
+    "last_successful_run": "2026-05-02T10:11:23.445224+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -2147,14 +2175,15 @@
       "08d4d0eb4de44a0069da76a2",
       "c19c43d2ca9c49ad0800ab03",
       "de6af78342019112afe199c2",
-      "daily-digest-2026-05-02"
+      "daily-digest-2026-05-02",
+      "483d4614308479f159b443f4"
     ],
-    "watchdog_alerted": true
+    "watchdog_alerted": false
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-02T09:12:23.459588+00:00",
+      "last_checked": "2026-05-02T10:11:23.445224+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -2176,17 +2205,17 @@
         "d82e59eb99c459b6b21917452b7ddb313f4ccab9763f63c92b801b10e62a8721",
         "fdebfc9d3ed198e2bddd9315f8b667d9ac0c539df7796380113ce594b8e3c331",
         "d82e59eb99c459b6b21917452b7ddb313f4ccab9763f63c92b801b10e62a8721",
-        "fa969487d25b3fd9c4748c7e58bcaa5d5b6a71b6f5f9d91347e6787bc117482d",
-        "f1ed7d107337c7e2cc14a19e8ff54c2770c0459d609fe89718b1b7fed3a4f559",
-        "17bd2169b1dc062bc0c99531b70cc46ddfca8439ccfadf2b3c1e7bdabb2045e6",
-        "81478095f0fb630164aff66d5117485ab6cfca314001903c38c161490c917823"
+        "be432a02d1fc6af08d867f6f18b301b7b099860a68bf9a4f069d2b3c041fc8cc",
+        "143d8cbf475a4bf638c0a4ac6902d720690ee2b4f34e1d116d033c52a82e9d94",
+        "2cdbb476bb3aba41e0b5bf6fe6ca74ecfbf993923041c39e39d34ee7daa1ed24",
+        "f5a628a256a433c2f8d2cfe3fd8f973a5d559fcfa04248ebfa2f91a1a8535683"
       ],
-      "last_checked": "2026-05-02T09:12:23.459588+00:00",
+      "last_checked": "2026-05-02T10:11:23.445224+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-02T09:12:23.459588+00:00",
+      "last_checked": "2026-05-02T10:11:23.445224+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -2208,17 +2237,17 @@
         "https://twitterapi.io/tweet-filter-rules": "15c8d14769dadcbebde0fedcafb1a98adc3a6ee629353545c2bcf8707cc93e78"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-05-02T09:12:33.134Z",
-        "https://twitterapi.io/readme": "2026-05-02T09:12:33.134Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-05-02T09:12:33.134Z"
+        "https://twitterapi.io/changelog": "2026-05-02T10:11:30.222Z",
+        "https://twitterapi.io/readme": "2026-05-02T10:11:30.222Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-05-02T10:11:30.222Z"
       }
     },
     "twitterapi_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:a63b8588847ca495d563b345423553968a6122bcd9fb99cb4492b64771276928",
+      "content_hash": "sha256:068fd5e809542e2cab02c9ab3cf26dd588f77cee48716af6223a5ee8658d1bd5",
       "incident_alerted": false,
-      "last_checked": "2026-05-02T09:12:23.459588+00:00",
+      "last_checked": "2026-05-02T10:11:23.445224+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -2350,12 +2379,12 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-05-02T09:12:23.459588+00:00",
+      "last_checked": "2026-05-02T10:11:23.445224+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-02T09:12:23.459588+00:00",
+      "last_checked": "2026-05-02T10:11:23.445224+00:00",
       "last_commit_sha": "f9113aa8dbe093bf782502edeb5df675a6c17c70",
       "last_error": null
     },
@@ -2364,7 +2393,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:8c8d05c453269e1243eed199719f7d56adc588138ec67c3e64685ffe6202240e",
       "incident_alerted": false,
-      "last_checked": "2026-05-02T09:12:23.459588+00:00",
+      "last_checked": "2026-05-02T10:11:23.445224+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -2374,7 +2403,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-02T09:12:23.459588+00:00",
+      "last_checked": "2026-05-02T10:11:23.445224+00:00",
       "last_error": null
     }
   },
