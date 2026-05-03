@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 611,
+    "alerts_sent": 612,
     "changes": [
       {
         "kind": "incident_started",
@@ -1676,10 +1676,10 @@
     ],
     "last_sent_date": "2026-05-03"
   },
-  "last_updated": "2026-05-03T15:55:51.515288+00:00",
+  "last_updated": "2026-05-03T16:57:34.430157+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-05-03T15:55:33.112541+00:00",
+    "last_successful_run": "2026-05-03T16:57:15.732645+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -2291,14 +2291,15 @@
       "89399d961316062b7ad07a25",
       "d82b7362303f7b405d0bf890",
       "db1710ed605858cbc2586ca4",
-      "22d63f4f26ebda28a869846a"
+      "22d63f4f26ebda28a869846a",
+      "c0cf2962ee976fdcbaffe11e"
     ],
-    "watchdog_alerted": false
+    "watchdog_alerted": true
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-03T15:55:33.112541+00:00",
+      "last_checked": "2026-05-03T16:57:15.732645+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -2325,12 +2326,12 @@
         "359ee6a3acae6b6a47d1523827fcf7a1a8490037b0f2a441a46c4a39b9834a35",
         "5af272b1b30919f3446000d5cd4e2308a5bfcc87c7ee271f5dc8956ede77442b"
       ],
-      "last_checked": "2026-05-03T15:55:33.112541+00:00",
+      "last_checked": "2026-05-03T16:57:15.732645+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-03T15:55:33.112541+00:00",
+      "last_checked": "2026-05-03T16:57:15.732645+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -2352,9 +2353,9 @@
         "https://twitterapi.io/tweet-filter-rules": "4c9db7d16b643837f6535166f821654b3cb98b471f0c42d322d6793c5aac48e4"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-05-03T15:55:49.372Z",
-        "https://twitterapi.io/readme": "2026-05-03T15:55:49.372Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-05-03T15:55:49.372Z"
+        "https://twitterapi.io/changelog": "2026-05-03T16:57:29.970Z",
+        "https://twitterapi.io/readme": "2026-05-03T16:57:29.970Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-05-03T16:57:29.970Z"
       }
     },
     "twitterapi_status": {
@@ -2362,7 +2363,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:e3680cd566d40f97cffef57ebbedc485d3a194f4b0728d859d7c98133d357043",
       "incident_alerted": false,
-      "last_checked": "2026-05-03T15:55:33.112541+00:00",
+      "last_checked": "2026-05-03T16:57:15.732645+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -2494,12 +2495,12 @@
         "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
         "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
       ],
-      "last_checked": "2026-05-03T15:55:33.112541+00:00",
+      "last_checked": "2026-05-03T16:57:15.732645+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-03T15:55:33.112541+00:00",
+      "last_checked": "2026-05-03T16:57:15.732645+00:00",
       "last_commit_sha": "f9113aa8dbe093bf782502edeb5df675a6c17c70",
       "last_error": null
     },
@@ -2508,7 +2509,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:3346b210560914c15ebf1a5be374ee19b1cc07110a1f279db73fed317679aed5",
       "incident_alerted": false,
-      "last_checked": "2026-05-03T15:55:33.112541+00:00",
+      "last_checked": "2026-05-03T16:57:15.732645+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -2518,7 +2519,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-03T15:55:33.112541+00:00",
+      "last_checked": "2026-05-03T16:57:15.732645+00:00",
       "last_error": null
     }
   },
