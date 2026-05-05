@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 618,
+    "alerts_sent": 621,
     "changes": [
       {
         "kind": "incident_started",
@@ -1450,6 +1450,153 @@
         "severity": "info",
         "summary": "Updated page: Changelog | TwitterAPI.io - Latest Updates and New Features | TwitterAPI.io | TwitterAPI.io Changelog",
         "target": "twitterapi_sitemap"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Commit: Update theme | files: docs.json, style.css",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Change to DM Events Behavior",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Changes to User Affiliation Data",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Updates to Reverse Chronological Home Timeline",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "New Filtering Operators for Filtered Stream",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Updates to Streaming Endpoints Latency",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Updates to Documentation Navigation",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Changes to Embedded Buttons",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "new top-level Spaces data dictionary",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "New data object to help clarify video view limitation for Engagement API",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "New Object for Video Views Limitation",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Today, we\u2019re sharing that the v1.1 oEmbed endpoint will be retired and removed on November 23, 2021, so that new features can be supported in a consistent manner. After that date, the only official and supported API endpoint for X oEmbeds (embedded posts and timelines) will be via publish.x.com/oembed.",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "New filter operators available to",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "new Developer Console experience",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Changes to X web, iOS and Android repost counts",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Changes to Repost Counts",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Updates to Replay API User Profiles",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Updates to Developer Policy",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "update to the Developer Policy",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Release of v2 Labs Endpoints",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-05T02:58:47.055844+00:00",
+        "severity": "info",
+        "summary": "Change field name",
+        "target": "x_changelog"
       }
     ],
     "failed_checks": [
@@ -1676,10 +1823,10 @@
     ],
     "last_sent_date": "2026-05-04"
   },
-  "last_updated": "2026-05-05T01:52:15.641891+00:00",
+  "last_updated": "2026-05-05T02:59:00.898781+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-05-05T01:52:08.846235+00:00",
+    "last_successful_run": "2026-05-05T02:58:47.055844+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -2298,14 +2445,17 @@
       "fe099bcc916dba707764ffeb",
       "4b0e168bec749415b0c9516c",
       "daily-digest-2026-05-04",
-      "c0ed36e015f4e9f67c40da71"
+      "c0ed36e015f4e9f67c40da71",
+      "80b0cd7dfa1f85f3a704061f",
+      "016a34de5a581ab1b3eff712",
+      "05d10fbe15af167ca0ba7ebe"
     ],
-    "watchdog_alerted": false
+    "watchdog_alerted": true
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-05T01:52:08.846235+00:00",
+      "last_checked": "2026-05-05T02:58:47.055844+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -2332,12 +2482,12 @@
         "359ee6a3acae6b6a47d1523827fcf7a1a8490037b0f2a441a46c4a39b9834a35",
         "5af272b1b30919f3446000d5cd4e2308a5bfcc87c7ee271f5dc8956ede77442b"
       ],
-      "last_checked": "2026-05-05T01:52:08.846235+00:00",
+      "last_checked": "2026-05-05T02:58:47.055844+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-05T01:52:08.846235+00:00",
+      "last_checked": "2026-05-05T02:58:47.055844+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -2359,9 +2509,9 @@
         "https://twitterapi.io/tweet-filter-rules": "4c9db7d16b643837f6535166f821654b3cb98b471f0c42d322d6793c5aac48e4"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-05-05T01:52:15.115Z",
-        "https://twitterapi.io/readme": "2026-05-05T01:52:15.115Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-05-05T01:52:15.115Z"
+        "https://twitterapi.io/changelog": "2026-05-05T02:58:59.894Z",
+        "https://twitterapi.io/readme": "2026-05-05T02:58:59.894Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-05-05T02:58:59.894Z"
       }
     },
     "twitterapi_status": {
@@ -2369,7 +2519,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:fabf66f16b07f7b2db0025af7d720e3c67fa3e55aa5fa596a32fe3ea121ea116",
       "incident_alerted": false,
-      "last_checked": "2026-05-05T01:52:08.846235+00:00",
+      "last_checked": "2026-05-05T02:58:47.055844+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -2384,11 +2534,15 @@
         "ead07c84baac57a9542f388a07a2a5209456ce790b04251bc9bd7d179ea85cb1",
         "ead07c84baac57a9542f388a07a2a5209456ce790b04251bc9bd7d179ea85cb1",
         "ead07c84baac57a9542f388a07a2a5209456ce790b04251bc9bd7d179ea85cb1",
+        "ead07c84baac57a9542f388a07a2a5209456ce790b04251bc9bd7d179ea85cb1",
+        "ead07c84baac57a9542f388a07a2a5209456ce790b04251bc9bd7d179ea85cb1",
         "9f4e9187c38a79d184100d59e1a254fa8aab64417f8ecea6608ea5743abc7b3c",
+        "2f1a60b810b5cb8e497179a1bfa6cabde637f6310c63eb29c5c272c5055b269c",
         "f71d40a0aa38fbab7ff9e7b3bde25ac4e458bd5efa1ed6b2f674288c9933815b",
         "650c4629be5ab374281ec6c2cfd7de8ca773d2bc2db0908d510f346f8d791853",
         "c591125d38706ffa9ae95f36a817e37cf2051a05befe41b2848f23213c71c235",
         "a0e6a8810eb59f7518fbfa5958c98f1200b5449521500cffb4c3424980d01983",
+        "603e963af82f0a826956126bd634d6068297957135557ea6c09d317ee53dd93f",
         "68db3dbe2bd559b0efab2040917aa9d8935c76b226789f084a052ba6981afe5f",
         "476059ff4998f33c7d4d98c1d9b248bffddc41f30c4a6d180cf0b95c46b8c5bc",
         "8599a758dd1659be040768c6fe29413fd8172fd304ba371aa9b3e99719ac5303",
@@ -2420,13 +2574,17 @@
         "663b85caddb54e1b0b356fe6e73a293afe244563f4766feb13de74dbfd9d48eb",
         "988710c09c573be5105a456137f3ce5b449b46f616959ac5842e190143648840",
         "5762d91ef00eb5aae37a8ad54709536e41194625b74d4449662dd0a702ae9e3d",
+        "3f22a3e36b777944739de8ed1d41862eb80bfa35dea1170b3963b3c9fca0ec44",
         "88e43e8fd230d44808c9a43271126edff1e0a7d89b633691879081afacc3612e",
+        "858267a15330f76044fd261fd7643e9954fb4ff805983a20e6e1a0d3722e50cd",
         "c1fbc1f52758e13538604704445759bc4ce7956d3080196e46b7148c97d59790",
+        "242a2583491d9460c12b8116eb018706c4d262d3b8fa05c03c4bbffec04071de",
         "f7ea965f65e91b97c32e20160eaa10e77b36dbf92b502f0300d28e42496aec93",
         "deb89066b97388cca865d22f70d06cea0a1949f2dffaa3a5858724962251f25c",
         "7876440413d88a93964d0a79b233249563b59c7e4b47d708f0d4d1921580a09c",
         "4f9d5ff21e32734732d61c6d6874fdd7af4617132f95ebd6617cb2fabfd94622",
         "996a18bd547bd12504018e1f0c7e98bfb62b6263f2222156ee23fbfd07cd26cb",
+        "411f982a5f04f805dfb199ea6126d6ad93f35f5c74aee7c823288d023b2d1c86",
         "9902d4330d09e4fe089940c2eb25b974ae3074245d4a32ca0b129ceb1b8d3b68",
         "98eb1da8588aeb99ad64a48aebd1cfe0c94db309ac1051bdd1399db69223ace7",
         "32e397be8f0a1e7d24bddff6fa807b6afa628061fc0ebe14e8d7445090861b34",
@@ -2434,12 +2592,16 @@
         "32e397be8f0a1e7d24bddff6fa807b6afa628061fc0ebe14e8d7445090861b34",
         "33ed7a3d5c155bdd5b0851ce0a0b726854f00240bd0b45210ec71993310a95bf",
         "3101b120eac520aacbfe2d4984e83cf5186db8347fc8e610aa9547844761ef2b",
+        "d93ae0c840cd5688631fd939c4775d55e31a618b72c8f387ce62997fc057add3",
         "ec209cc13162922e6ef963785630e27efad0f6741f15b2935dfc17199e0afdfe",
         "b0e9004b919312ea91f58efce6518783f0a277a97cb964a7144d1ab1b454b2e7",
         "4042b8ef050356413e6cf1d20cb4f5bcf45780202acf7071fa92b4bac8fd4722",
         "7e1a9cb73e38745a570c112572c76b08d52a6d68d3b3ba2cc0b1f8368e4f08d3",
         "32c2941f54833ca545274c5b0a108226f0a4194af48d6c7101eb112ad6fbf083",
+        "dabe7a57cc909e4096dd5b58f7988af1c735a38ce971a5f3954614af4c7d8bd3",
         "c16426687fad1acb51e9ca109451d3c1cdc34eaec36eebc319541d27d7cac318",
+        "997d7dfddb2ed7dcd6867493886fe5d692d45edc69ec98e8e607fe08288f5e18",
+        "47679ed8c254ecc2fc9d88e8ebfdb514875d6960ae3064d37cb5493ab5980274",
         "c8c89aaa59fa96f6e2511147e34250ddeb8e78e956ddbafd15b1cea9cf6faf2a",
         "5576e847b9446ce5aa87d0a9f0f02769e576a5e7bad0a8f8211a6435889058bd",
         "66d3ba752acfb32d2671afcbaea58e35ccdce4e98ea393f919344b49d52b0814",
@@ -2448,18 +2610,21 @@
         "ad93600d5a43bce05b2a07f38e40e1968806d16e38325ddc3ea4b034dbb57dbb",
         "5c15d1989ac58b36bb21ad529d2a0012bf8cb66f53ab420310161da3624f5244",
         "c84e058416451fe0577609ddeb2fea2b41b3dcfc33fb00d5b84423b84f5ecb44",
+        "97cd24a15e2dc2d2fdec8e4ed73604f12a1924a8ba7ce078e1f7f77f849e5e0d",
         "e0f8d3597f45405b42a2ce468add95eaa4d833c48d26ba334f2da082d14d458d",
         "6177b246c5cf30749a29740d3968f636c9856f9ca247ef5c178017c2d44cfb52",
         "134cf357d2bab220ed42e84262af8ac2e1b191349b60d106a924545c7efcc5dd",
         "1532a109a48cbbf59b9cca99a7d592e997a29a55a5a2551420cbffb9cef37b4b",
         "ffcde8d0f4a4107103965f368d8d5f37f6425441d49eee74891d82faf1b4a6e6",
         "7b6a685c854c31f5d8ef1e0672237688042bd1397ddfbba378b6b0230d19a65d",
+        "659f92e8e394a6bc077a756c6d183b65670db5bd24972df3a2283b80ad93b29f",
         "f4d1e389b7931c63796c34d82b441351563354af8db44bb90fa816ad72fccf11",
         "002a2058d0bb4bfb7bc941b226472ccbf82e54b581f2fabf7a727a272bef6c5e",
         "002a2058d0bb4bfb7bc941b226472ccbf82e54b581f2fabf7a727a272bef6c5e",
         "6dfef4d1b100d8be0da95d6d4ea620850b7e037c87b2d36a0a32f9d46ae626ce",
         "51ffa4d58c94891883c4b591cb0bed0cb694d625bd5b150108561c3127133103",
         "657c284fac9b8beed90aab8cfccf19fd5966169b6f1f99d65ee842b1bc6fa214",
+        "e38aff7615662893d3624fe0fded2e00bb7fb41fe3145efc2e12162da463cae3",
         "9d9a4c55953c10abafa636ad14c9852cec8a1806bf0d8783523188a0a016f463",
         "0c5f9861197e3c86c5c8eebe42ffe1b64566690484696739cb312735b379bbaf",
         "0c5f9861197e3c86c5c8eebe42ffe1b64566690484696739cb312735b379bbaf",
@@ -2468,54 +2633,39 @@
         "fa7043d96bb9d9b514f333f89cc0444930b128d00eb10cbf4f2e3b784452074e",
         "a6e380434cf6e357bc1009a863555c0742b8d69c967d9e2d47cbb320a22af711",
         "e9deb236a066ae9a2d582b95b524acbf9f5bb3d05b53c160cf86a5c2224adeed",
+        "61513c888360fe501a38261cf51e501739163717604c02f5fea10e58a2cf530b",
+        "5a7ace87c0c306e8915d14246e359407cebd6c4964334d792a84187d56ebfbc4",
         "0e1771158d44891d45250e2099c092a46ad99f8e29793bfd80e99c5650cc2380",
         "040d5035c7c70ca3c5a3b5907fdaaff6af90ff0c055de2b542efd77d514479a4",
         "d083359d4a985de596b66b33ce890a04c64598023f38b1da71f9d76a63471d02",
         "804951c084a0b00391af7ad93714a5a9a6061ebf552cbb1e672d09c5e0e8e4a5",
+        "4027b4d494f08e106af340fcb4b2df264fc8cc1d4901da065c628f3100256c2f",
         "935e0b89184aa3b6f581817aeaf45e3a95f1b7a9cee4b85b11d736cbb8bd991d",
         "885a9c7a06beac63fe7c25966b51b84b0962bc6b0d1b460e7c33e08fc22982cc",
+        "61e51198053d53a9a49c647ac6a2251339a91cb6bb725485c907566c56c3849d",
+        "d6b598733801f7972b7768984944d2f8403fcfe8a0a944caa49a311a5b3cbd55",
         "b5521a4bb2a419bd09806be7e047eb271cd255c7132dc4624f791b75ab08dcb7",
         "5ad4110719ed0f550ebb9f1109d8a3d7113068451ffe5cb43ed7a366730f4e37",
+        "7156eff9a3c73b9cb947140ec41b76edafda389b03b24c32cabe6b339cc600b2",
+        "121418276012da41fc98d23702f50d9aff8d6a24e94cab8b9c0010ed5574887e",
         "2f49a5ccdcca3a7683ee7b553352a431320840644818396a2da1305f9d779bac",
-        "c8d6d5986f6927da2d676e52ee8e470b99f277c7f433258b9341ee1288e6780e",
-        "2b63a581b3e99914ddd94b157cb4ad9fe16c0593ce1f6256ba493a5e502fb206",
-        "78e5bb44bc09f84e0a94f9ac24e690af1f87fdbae056582bbc3ffa94757c9bba",
-        "1a52d0cd9297a5aca5c4591bb768f0a2335ba959f73fe301cc79c52e54e23a57",
-        "5054888c22cd11fbd691e9868680d5e0da91550d19a9aa323999262e62e3da6d",
-        "ed044377a545008563f4175f0b58abd41c5ea9575317e89249be6b9bc783b88b",
-        "1536fffd4d5e346ce4ff8ecf72bc92e9176387b2ee95d00ac9c24705b73336c3",
-        "17326a26f0c36756583d49ff724c492df20f05d31b54e06d17466d9d3bf58980",
-        "19f822e2e15faf522a3e3da50214926018602760e155520342afeed919a73358",
-        "2cc3d7f438e92b2b0af8cedc10e16b2b7912b4dfd3035ae8c14be91c5452ecb6",
-        "acda1d1e248539aa23adde93199cf1bd182d9c84ea12facbc5820b0b3c984a9c",
-        "195a445329bf2d33007e724361535d49c64c2de21b56440a577f6c7b493d0fdd",
-        "1da7fafc476ca8687da34c95256ee9338c3a534ed2a6d30f04493ccf4bbb51cd",
-        "1da7fafc476ca8687da34c95256ee9338c3a534ed2a6d30f04493ccf4bbb51cd",
-        "e6cd57ed617c21ed6f4a8074fadab135c70b52fc8ef27c7805b287e487143b63",
-        "ced2975507bdc102b5163460ff2428a3786a64b55ad71c8bcecb22c1e07b15b0",
-        "421ea7fe08a3739daf7802a4d2250045bfbfddef9cf75df7b2f4edc2990a4b7b",
-        "14d6ff983332b3f1ce65c6f5ee681f3659eabc62c104c767d0c466593d39135e",
-        "41109eb103aa586c1c4d27cfab6ae57c26559272366b903cee1733818fc62fc7",
-        "c09eb30b6f47735372f5a3b01a9a4f9c8cbbefd24834310f93f0d0aef5451c98",
-        "3712f6606238a78d0029ad386faebfa3289cec23866d7030020c552c840b0a8c",
-        "d355a6a29ecbe4fa014d09bb2ded7c180cda7f03e369b232be8f7b48a9a25d88",
-        "7a7df11092fb92d0c0231546815123a6097aebc07fd16b68190dfe9b6e154c60"
+        "c8d6d5986f6927da2d676e52ee8e470b99f277c7f433258b9341ee1288e6780e"
       ],
-      "last_checked": "2026-05-05T01:52:08.846235+00:00",
+      "last_checked": "2026-05-05T02:58:47.055844+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-05T01:52:08.846235+00:00",
-      "last_commit_sha": "f9113aa8dbe093bf782502edeb5df675a6c17c70",
+      "last_checked": "2026-05-05T02:58:47.055844+00:00",
+      "last_commit_sha": "9b4f947346f06651cf775ca261ea1d2c29a6b60b",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:28ee29be561659c9abc30272936691e60654c0f9f7fd5f180db508b6d1c8277f",
+      "content_hash": "sha256:371136ef2daf5428e9fa2d75948bbaa714029704d922e3b8e4a9d51e99d09f6c",
       "incident_alerted": false,
-      "last_checked": "2026-05-05T01:52:08.846235+00:00",
+      "last_checked": "2026-05-05T02:58:47.055844+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -2525,7 +2675,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-05T01:52:08.846235+00:00",
+      "last_checked": "2026-05-05T02:58:47.055844+00:00",
       "last_error": null
     }
   },
