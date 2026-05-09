@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 641,
+    "alerts_sent": 642,
     "changes": [
       {
         "kind": "incident_started",
@@ -1940,10 +1940,10 @@
     ],
     "last_sent_date": "2026-05-08"
   },
-  "last_updated": "2026-05-09T01:58:43.197588+00:00",
+  "last_updated": "2026-05-09T03:18:49.590417+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-05-09T01:58:33.084181+00:00",
+    "last_successful_run": "2026-05-09T03:18:42.420610+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -2585,14 +2585,15 @@
       "9b1b6fbd1aaf41e1f4d57ea2",
       "eff5b67f4d2c6b492fcdfe71",
       "05d854036c02c109be088c2c",
-      "daily-digest-2026-05-08"
+      "daily-digest-2026-05-08",
+      "8afa99e9df46d89c6d7c6fda"
     ],
-    "watchdog_alerted": false
+    "watchdog_alerted": true
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-09T01:58:33.084181+00:00",
+      "last_checked": "2026-05-09T03:18:42.420610+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
@@ -2624,12 +2625,12 @@
         "359ee6a3acae6b6a47d1523827fcf7a1a8490037b0f2a441a46c4a39b9834a35",
         "0f7adcb4ed35b30689a908e3901ecac66cb05b4bf8e4eb1fb7143cba64adef56"
       ],
-      "last_checked": "2026-05-09T01:58:33.084181+00:00",
+      "last_checked": "2026-05-09T03:18:42.420610+00:00",
       "last_error": null
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-09T01:58:33.084181+00:00",
+      "last_checked": "2026-05-09T03:18:42.420610+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -2651,17 +2652,17 @@
         "https://twitterapi.io/tweet-filter-rules": "4c9db7d16b643837f6535166f821654b3cb98b471f0c42d322d6793c5aac48e4"
       },
       "page_lastmods": {
-        "https://twitterapi.io/changelog": "2026-05-09T01:58:42.666Z",
-        "https://twitterapi.io/readme": "2026-05-09T01:58:42.666Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-05-09T01:58:42.666Z"
+        "https://twitterapi.io/changelog": "2026-05-09T03:18:48.264Z",
+        "https://twitterapi.io/readme": "2026-05-09T03:18:48.264Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-05-09T03:18:48.264Z"
       }
     },
     "twitterapi_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:16a8dd281103656044ab9d6eb992cfec2971270a846bcd394c6ab0814238eb82",
+      "content_hash": "sha256:afe0269bb679096f1dd13c424a5bb344ae7f1456635ae3d2c7d3302960d73496",
       "incident_alerted": false,
-      "last_checked": "2026-05-09T01:58:33.084181+00:00",
+      "last_checked": "2026-05-09T03:18:42.420610+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -2793,12 +2794,12 @@
         "2f49a5ccdcca3a7683ee7b553352a431320840644818396a2da1305f9d779bac",
         "c8d6d5986f6927da2d676e52ee8e470b99f277c7f433258b9341ee1288e6780e"
       ],
-      "last_checked": "2026-05-09T01:58:33.084181+00:00",
+      "last_checked": "2026-05-09T03:18:42.420610+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-09T01:58:33.084181+00:00",
+      "last_checked": "2026-05-09T03:18:42.420610+00:00",
       "last_commit_sha": "d142809ce88fa837f23ea052430d43a5e5ac445d",
       "last_error": null
     },
@@ -2807,7 +2808,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:0cf7369ebcf7c9df24354b9ec1f6c19a4094bf180250c5988ddf8d9c7a670914",
       "incident_alerted": false,
-      "last_checked": "2026-05-09T01:58:33.084181+00:00",
+      "last_checked": "2026-05-09T03:18:42.420610+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -2817,7 +2818,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-09T01:58:33.084181+00:00",
+      "last_checked": "2026-05-09T03:18:42.420610+00:00",
       "last_error": null
     }
   },
