@@ -2519,14 +2519,19 @@
         "error": "HTTP status 404 for https://twitterapi.io/changelog",
         "occurred_at": "2026-05-14T21:12:41.098833+00:00",
         "target": "twitterapi_changelog"
+      },
+      {
+        "error": "HTTP status 404 for https://twitterapi.io/changelog",
+        "occurred_at": "2026-05-14T21:44:11.448403+00:00",
+        "target": "twitterapi_changelog"
       }
     ],
     "last_sent_date": "2026-05-14"
   },
-  "last_updated": "2026-05-14T21:12:50.389381+00:00",
+  "last_updated": "2026-05-14T21:44:23.783504+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-05-14T21:12:41.098833+00:00",
+    "last_successful_run": "2026-05-14T21:44:11.448403+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -3216,11 +3221,11 @@
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-14T21:12:41.098833+00:00",
+      "last_checked": "2026-05-14T21:44:11.448403+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
-      "consecutive_failures": 88,
+      "consecutive_failures": 89,
       "entry_ids": [
         "2375cf8b6a4e811ced0f561261bc6b32b040c8fe287b4ab98ca56a3a78e640a3",
         "57a1a21c26454cba31803ab88253f47cc04bcf7c68c9e4c4da7bd7df5d5c41e8",
@@ -3248,12 +3253,12 @@
         "359ee6a3acae6b6a47d1523827fcf7a1a8490037b0f2a441a46c4a39b9834a35",
         "0f7adcb4ed35b30689a908e3901ecac66cb05b4bf8e4eb1fb7143cba64adef56"
       ],
-      "last_checked": "2026-05-14T21:12:41.098833+00:00",
+      "last_checked": "2026-05-14T21:44:11.448403+00:00",
       "last_error": "HTTP status 404 for https://twitterapi.io/changelog"
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-14T21:12:41.098833+00:00",
+      "last_checked": "2026-05-14T21:44:11.448403+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -3275,8 +3280,8 @@
         "https://twitterapi.io/tweet-filter-rules": "5aa20d112f6f10fad6432d8091254d65b87ff0b92fcd82f3b5b788f9b7310ed2"
       },
       "page_lastmods": {
-        "https://twitterapi.io/readme": "2026-05-14T21:12:49.680Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-05-14T21:12:49.680Z"
+        "https://twitterapi.io/readme": "2026-05-14T21:44:23.302Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-05-14T21:44:23.302Z"
       }
     },
     "twitterapi_status": {
@@ -3284,7 +3289,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:8e8ddd628ea270864da46303d20f989fa9f6306d9e2e88ac00c12abde817ef3b",
       "incident_alerted": false,
-      "last_checked": "2026-05-14T21:12:41.098833+00:00",
+      "last_checked": "2026-05-14T21:44:11.448403+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -3416,12 +3421,12 @@
         "2f49a5ccdcca3a7683ee7b553352a431320840644818396a2da1305f9d779bac",
         "c8d6d5986f6927da2d676e52ee8e470b99f277c7f433258b9341ee1288e6780e"
       ],
-      "last_checked": "2026-05-14T21:12:41.098833+00:00",
+      "last_checked": "2026-05-14T21:44:11.448403+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-14T21:12:41.098833+00:00",
+      "last_checked": "2026-05-14T21:44:11.448403+00:00",
       "last_commit_sha": "4ee78332576818ed577e962a5d0c6f66d4af4550",
       "last_error": null
     },
@@ -3430,7 +3435,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:3d0c175bcf4db9f614661d8a55545ce6240103904cb6122c3f5055f7231fce7c",
       "incident_alerted": false,
-      "last_checked": "2026-05-14T21:12:41.098833+00:00",
+      "last_checked": "2026-05-14T21:44:11.448403+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -3440,7 +3445,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-14T21:12:41.098833+00:00",
+      "last_checked": "2026-05-14T21:44:11.448403+00:00",
       "last_error": null
     }
   },
