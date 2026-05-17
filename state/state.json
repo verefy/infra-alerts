@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 694,
+    "alerts_sent": 695,
     "changes": [
       {
         "kind": "incident_started",
@@ -1814,6 +1814,13 @@
         "severity": "info",
         "summary": "Commit: Add Ads API access request form link to introduction | files: x-ads-api/introduction.mdx",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "sitemap_change",
+        "occurred_at": "2026-05-17T04:44:18.537675+00:00",
+        "severity": "info",
+        "summary": "Updated page: Tweet Filter Rules \u2014 Stream API Reference | TwitterAPI.io",
+        "target": "twitterapi_sitemap"
       }
     ],
     "failed_checks": [
@@ -2836,14 +2843,19 @@
         "error": "HTTP status 404 for https://twitterapi.io/changelog",
         "occurred_at": "2026-05-17T03:20:57.499977+00:00",
         "target": "twitterapi_changelog"
+      },
+      {
+        "error": "HTTP status 404 for https://twitterapi.io/changelog",
+        "occurred_at": "2026-05-17T04:44:18.537675+00:00",
+        "target": "twitterapi_changelog"
       }
     ],
     "last_sent_date": "2026-05-16"
   },
-  "last_updated": "2026-05-17T03:21:06.504780+00:00",
+  "last_updated": "2026-05-17T04:44:27.123448+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-05-17T03:20:57.499977+00:00",
+    "last_successful_run": "2026-05-17T04:44:18.537675+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -3538,18 +3550,19 @@
       "daily-digest-2026-05-16",
       "8ea7d2d28aa1fc72918c0228",
       "0d9a6d25c20f5eafbda7651c",
-      "fa6ba42407549d18cc1ad814"
+      "fa6ba42407549d18cc1ad814",
+      "91082eb755e12943144fc56f"
     ],
     "watchdog_alerted": true
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-17T03:20:57.499977+00:00",
+      "last_checked": "2026-05-17T04:44:18.537675+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
-      "consecutive_failures": 150,
+      "consecutive_failures": 151,
       "entry_ids": [
         "2375cf8b6a4e811ced0f561261bc6b32b040c8fe287b4ab98ca56a3a78e640a3",
         "57a1a21c26454cba31803ab88253f47cc04bcf7c68c9e4c4da7bd7df5d5c41e8",
@@ -3577,12 +3590,12 @@
         "359ee6a3acae6b6a47d1523827fcf7a1a8490037b0f2a441a46c4a39b9834a35",
         "0f7adcb4ed35b30689a908e3901ecac66cb05b4bf8e4eb1fb7143cba64adef56"
       ],
-      "last_checked": "2026-05-17T03:20:57.499977+00:00",
+      "last_checked": "2026-05-17T04:44:18.537675+00:00",
       "last_error": "HTTP status 404 for https://twitterapi.io/changelog"
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-17T03:20:57.499977+00:00",
+      "last_checked": "2026-05-17T04:44:18.537675+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -3601,19 +3614,19 @@
         "https://twitterapi.io/privacy": "a1c89c447a7b463c76cbcd9cb48ddf778349fc665db764776ddcd78eeb9d3719",
         "https://twitterapi.io/qps-limits": "5d3f75be426610f1e1a6e7bf48a100c2bd2e47757cea023091d0997d6e8e047e",
         "https://twitterapi.io/readme": "5427ab612ed463a2b1ccb5ae5ae99b1ba6ed75a2aa2def6e718311b269e5d03f",
-        "https://twitterapi.io/tweet-filter-rules": "5aa20d112f6f10fad6432d8091254d65b87ff0b92fcd82f3b5b788f9b7310ed2"
+        "https://twitterapi.io/tweet-filter-rules": "4512860d494a3603889b73e8bb3416197363191d0e02df6bc65292c2c5e291a1"
       },
       "page_lastmods": {
-        "https://twitterapi.io/readme": "2026-05-17T03:21:05.807Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-05-17T03:21:05.807Z"
+        "https://twitterapi.io/readme": "2026-05-17T04:44:26.592Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-05-17T04:44:26.592Z"
       }
     },
     "twitterapi_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:e05c53bda593165cbcc07a6fe53dea6095d2ee6614308a0ef3fc230ea44df097",
+      "content_hash": "sha256:cbe098f115017f7953d4522a0d8252fa795258d20dc91da05709a74468199b7b",
       "incident_alerted": false,
-      "last_checked": "2026-05-17T03:20:57.499977+00:00",
+      "last_checked": "2026-05-17T04:44:18.537675+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -3745,12 +3758,12 @@
         "2f49a5ccdcca3a7683ee7b553352a431320840644818396a2da1305f9d779bac",
         "c8d6d5986f6927da2d676e52ee8e470b99f277c7f433258b9341ee1288e6780e"
       ],
-      "last_checked": "2026-05-17T03:20:57.499977+00:00",
+      "last_checked": "2026-05-17T04:44:18.537675+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-17T03:20:57.499977+00:00",
+      "last_checked": "2026-05-17T04:44:18.537675+00:00",
       "last_commit_sha": "66099493a405f5339d479d609b17fbee6c6b0131",
       "last_error": null
     },
@@ -3759,7 +3772,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:2c36a27c4d971ff3b257e7263fa7fbed871bc513e0248565b01ec093d3671de3",
       "incident_alerted": false,
-      "last_checked": "2026-05-17T03:20:57.499977+00:00",
+      "last_checked": "2026-05-17T04:44:18.537675+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -3769,7 +3782,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-17T03:20:57.499977+00:00",
+      "last_checked": "2026-05-17T04:44:18.537675+00:00",
       "last_error": null
     }
   },
