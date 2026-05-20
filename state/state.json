@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 719,
+    "alerts_sent": 721,
     "changes": [
       {
         "kind": "incident_started",
@@ -2024,6 +2024,27 @@
         "severity": "info",
         "summary": "Oct 24, 2025",
         "target": "x_changelog"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-05-20T23:42:22.974719+00:00",
+        "severity": "info",
+        "summary": "Commit: Update changelog.mdx | files: changelog.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-05-20T23:42:22.974719+00:00",
+        "severity": "info",
+        "summary": "Commit: docs: normalize heading capitalization to sentence case (#97) | files: enterprise-api/community-notes/introduction.mdx, enterprise-api/media/quickstart/best-practices.mdx, enterprise-api/posts/lookup/migrate/overview.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:42:22.974719+00:00",
+        "severity": "info",
+        "summary": "Effective April 20, 2026, we introduced new",
+        "target": "x_changelog"
       }
     ],
     "failed_checks": [
@@ -3526,14 +3547,19 @@
         "error": "HTTP status 404 for https://twitterapi.io/changelog",
         "occurred_at": "2026-05-20T23:08:37.375197+00:00",
         "target": "twitterapi_changelog"
+      },
+      {
+        "error": "HTTP status 404 for https://twitterapi.io/changelog",
+        "occurred_at": "2026-05-20T23:42:22.974719+00:00",
+        "target": "twitterapi_changelog"
       }
     ],
     "last_sent_date": "2026-05-20"
   },
-  "last_updated": "2026-05-20T23:08:48.798171+00:00",
+  "last_updated": "2026-05-20T23:42:33.251611+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-05-20T23:08:37.375197+00:00",
+    "last_successful_run": "2026-05-20T23:42:22.974719+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -4253,18 +4279,20 @@
       "78dd6c46d04da60a36f37e51",
       "6706761f7816782be8952dde",
       "98b40f315f31132317a083e7",
-      "32d347ee89fa8f20f94e1b60"
+      "32d347ee89fa8f20f94e1b60",
+      "e539ebb8758ee14dbc5a90ac",
+      "eb40fd4911b65cfa0b1c5254"
     ],
     "watchdog_alerted": false
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-20T23:08:37.375197+00:00",
+      "last_checked": "2026-05-20T23:42:22.974719+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
-      "consecutive_failures": 241,
+      "consecutive_failures": 242,
       "entry_ids": [
         "2375cf8b6a4e811ced0f561261bc6b32b040c8fe287b4ab98ca56a3a78e640a3",
         "57a1a21c26454cba31803ab88253f47cc04bcf7c68c9e4c4da7bd7df5d5c41e8",
@@ -4292,12 +4320,12 @@
         "359ee6a3acae6b6a47d1523827fcf7a1a8490037b0f2a441a46c4a39b9834a35",
         "0f7adcb4ed35b30689a908e3901ecac66cb05b4bf8e4eb1fb7143cba64adef56"
       ],
-      "last_checked": "2026-05-20T23:08:37.375197+00:00",
+      "last_checked": "2026-05-20T23:42:22.974719+00:00",
       "last_error": "HTTP status 404 for https://twitterapi.io/changelog"
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-20T23:08:37.375197+00:00",
+      "last_checked": "2026-05-20T23:42:22.974719+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -4319,8 +4347,8 @@
         "https://twitterapi.io/tweet-filter-rules": "4512860d494a3603889b73e8bb3416197363191d0e02df6bc65292c2c5e291a1"
       },
       "page_lastmods": {
-        "https://twitterapi.io/readme": "2026-05-20T23:08:47.822Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-05-20T23:08:47.822Z"
+        "https://twitterapi.io/readme": "2026-05-20T23:42:32.241Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-05-20T23:42:32.241Z"
       }
     },
     "twitterapi_status": {
@@ -4328,7 +4356,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:4af9918fb50d246e8daea417f4b067154cd3508a3887ec5418498a3bf90f5f37",
       "incident_alerted": false,
-      "last_checked": "2026-05-20T23:08:37.375197+00:00",
+      "last_checked": "2026-05-20T23:42:22.974719+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -4347,7 +4375,7 @@
         "ead07c84baac57a9542f388a07a2a5209456ce790b04251bc9bd7d179ea85cb1",
         "f005645c3b11689a84377416c38f4ad4c0411bde832b0039036788d374d3414d",
         "8f3e9de68dddc92d5407cc8dd102594c9b57b88b82a362972eb8f1a2f0e68845",
-        "a893fedd3ceceb2f4ab6cfcdec6df2d225739db77a55132531316f2cb64b0d3f",
+        "b590ab8b844f593a78f72428ab450d8901624ceae48aef65c126e0a368206197",
         "36ab2cca9a53095dc1702440c6d01e7d392bb36ffab6b5898048c19ff5327d6e",
         "d007f437db54f216883d165dbe407bb8e334df6cd55edd702e2ca6e7b745e8a5",
         "e7b05ceeaf0a6312c679a41610f15b00bca1d4d9d96fd752715a6f7456a40431",
@@ -4460,21 +4488,21 @@
         "f4d1e389b7931c63796c34d82b441351563354af8db44bb90fa816ad72fccf11",
         "002a2058d0bb4bfb7bc941b226472ccbf82e54b581f2fabf7a727a272bef6c5e"
       ],
-      "last_checked": "2026-05-20T23:08:37.375197+00:00",
+      "last_checked": "2026-05-20T23:42:22.974719+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-20T23:08:37.375197+00:00",
-      "last_commit_sha": "92bafafd78e462bc67432b498841f06e8c8d3b8b",
+      "last_checked": "2026-05-20T23:42:22.974719+00:00",
+      "last_commit_sha": "1a72300682cd222c98596ea9a25dbbb087c9b106",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:1bb4a5d0f8b76449d119b9f59b589f6fc0a1d40d9522c5e9c53119304261f32d",
+      "content_hash": "sha256:b645d5d3e62fc9440c1ad85e5027a14aa31407f1fa14ae068b5e109dcc053974",
       "incident_alerted": false,
-      "last_checked": "2026-05-20T23:08:37.375197+00:00",
+      "last_checked": "2026-05-20T23:42:22.974719+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -4484,7 +4512,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-20T23:08:37.375197+00:00",
+      "last_checked": "2026-05-20T23:42:22.974719+00:00",
       "last_error": null
     }
   },
