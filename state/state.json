@@ -1,6 +1,6 @@
 {
   "digest": {
-    "alerts_sent": 717,
+    "alerts_sent": 719,
     "changes": [
       {
         "kind": "incident_started",
@@ -1842,6 +1842,188 @@
         "severity": "info",
         "summary": "Commit: docs: fix typos, broken frontmatter, and formatting issues across MDX files (#87) | files: developer-terms/ads-api-agreement.mdx, enterprise-api/account-activity/create-replay-job.mdx, enterprise-api/chat/get-chat-conversation.mdx",
         "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Commit: Update changelog.mdx | files: changelog.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Commit: Update changelog.mdx | files: changelog.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Commit: docs: normalize section headings to sentence case (#88) | files: enterprise-api/activity/introduction.mdx, enterprise-api/activity/quickstart.mdx, enterprise-api/community-notes/introduction.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Commit: fix: correct typos and broken frontmatter descriptions in MDX docs (#91) | files: changelog.mdx, enterprise-api/activity/introduction.mdx, enterprise-api/posts/counts/integrate/build-a-query.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Commit: docs: translate changelog updates into ja, es, pt, ko (#92) | files: es/changelog.mdx, ja/changelog.mdx, ko/changelog.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "github_commit",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Commit: docs: fix typos, duplicate words, and broken phrases across docs (#93) | files: changelog.mdx, developer-terms/restricted-use-cases.mdx, x-ads-api/analytics.mdx",
+        "target": "x_docs_github"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "May 4, 2026",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Apr 16, 2026",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Effective April 20, 2026, we introduced new \u201cOwned Reads\u201d pricing at",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Mar 20, 2026",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": ", effective March 25, 2026 at 12:00 PM ET. Use the new consolidated",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Mar 18, 2026",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Mar 13, 2026",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Updates to Event Types Format in the X Activity API",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Today, we announced changes to event type naming in the X Activity API, effective March 18, 2026. PascalCase event types (e.g.,",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Mar 11, 2026",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Feb 23, 2026",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Feb 6, 2026",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Jan 28, 2026",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Jan 19, 2026",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Jan 15, 2026",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Dec 23, 2025",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Nov 19, 2025",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Nov 3, 2025",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Oct 27, 2025",
+        "target": "x_changelog"
+      },
+      {
+        "kind": "changelog_entry",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "severity": "info",
+        "summary": "Oct 24, 2025",
+        "target": "x_changelog"
       }
     ],
     "failed_checks": [
@@ -3339,14 +3521,19 @@
         "error": "HTTP status 404 for https://twitterapi.io/changelog",
         "occurred_at": "2026-05-20T22:38:02.288889+00:00",
         "target": "twitterapi_changelog"
+      },
+      {
+        "error": "HTTP status 404 for https://twitterapi.io/changelog",
+        "occurred_at": "2026-05-20T23:08:37.375197+00:00",
+        "target": "twitterapi_changelog"
       }
     ],
     "last_sent_date": "2026-05-20"
   },
-  "last_updated": "2026-05-20T22:38:09.994625+00:00",
+  "last_updated": "2026-05-20T23:08:48.798171+00:00",
   "meta": {
     "deployed_version": "0.2.0",
-    "last_successful_run": "2026-05-20T22:38:02.288889+00:00",
+    "last_successful_run": "2026-05-20T23:08:37.375197+00:00",
     "sent_alert_ids": [
       "6847d6c29429ed7457f59534",
       "12a4ba5d37d29d164f4c586c",
@@ -4064,18 +4251,20 @@
       "15ec581c8183c2029b86c381",
       "c56f42162c3569254fb1e495",
       "78dd6c46d04da60a36f37e51",
-      "6706761f7816782be8952dde"
+      "6706761f7816782be8952dde",
+      "98b40f315f31132317a083e7",
+      "32d347ee89fa8f20f94e1b60"
     ],
     "watchdog_alerted": false
   },
   "targets": {
     "api_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-20T22:38:02.288889+00:00",
+      "last_checked": "2026-05-20T23:08:37.375197+00:00",
       "last_error": null
     },
     "twitterapi_changelog": {
-      "consecutive_failures": 240,
+      "consecutive_failures": 241,
       "entry_ids": [
         "2375cf8b6a4e811ced0f561261bc6b32b040c8fe287b4ab98ca56a3a78e640a3",
         "57a1a21c26454cba31803ab88253f47cc04bcf7c68c9e4c4da7bd7df5d5c41e8",
@@ -4103,12 +4292,12 @@
         "359ee6a3acae6b6a47d1523827fcf7a1a8490037b0f2a441a46c4a39b9834a35",
         "0f7adcb4ed35b30689a908e3901ecac66cb05b4bf8e4eb1fb7143cba64adef56"
       ],
-      "last_checked": "2026-05-20T22:38:02.288889+00:00",
+      "last_checked": "2026-05-20T23:08:37.375197+00:00",
       "last_error": "HTTP status 404 for https://twitterapi.io/changelog"
     },
     "twitterapi_sitemap": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-20T22:38:02.288889+00:00",
+      "last_checked": "2026-05-20T23:08:37.375197+00:00",
       "last_error": null,
       "page_hashes": {
         "https://twitterapi.io": "e4b5cae3212d8e46546675456b6767fdc70392d91043c1f2065486cf14e82974",
@@ -4130,8 +4319,8 @@
         "https://twitterapi.io/tweet-filter-rules": "4512860d494a3603889b73e8bb3416197363191d0e02df6bc65292c2c5e291a1"
       },
       "page_lastmods": {
-        "https://twitterapi.io/readme": "2026-05-20T22:38:09.561Z",
-        "https://twitterapi.io/tweet-filter-rules": "2026-05-20T22:38:09.561Z"
+        "https://twitterapi.io/readme": "2026-05-20T23:08:47.822Z",
+        "https://twitterapi.io/tweet-filter-rules": "2026-05-20T23:08:47.822Z"
       }
     },
     "twitterapi_status": {
@@ -4139,7 +4328,7 @@
       "consecutive_failures": 0,
       "content_hash": "sha256:4af9918fb50d246e8daea417f4b067154cd3508a3887ec5418498a3bf90f5f37",
       "incident_alerted": false,
-      "last_checked": "2026-05-20T22:38:02.288889+00:00",
+      "last_checked": "2026-05-20T23:08:37.375197+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -4156,6 +4345,36 @@
         "ead07c84baac57a9542f388a07a2a5209456ce790b04251bc9bd7d179ea85cb1",
         "ead07c84baac57a9542f388a07a2a5209456ce790b04251bc9bd7d179ea85cb1",
         "ead07c84baac57a9542f388a07a2a5209456ce790b04251bc9bd7d179ea85cb1",
+        "f005645c3b11689a84377416c38f4ad4c0411bde832b0039036788d374d3414d",
+        "8f3e9de68dddc92d5407cc8dd102594c9b57b88b82a362972eb8f1a2f0e68845",
+        "a893fedd3ceceb2f4ab6cfcdec6df2d225739db77a55132531316f2cb64b0d3f",
+        "36ab2cca9a53095dc1702440c6d01e7d392bb36ffab6b5898048c19ff5327d6e",
+        "d007f437db54f216883d165dbe407bb8e334df6cd55edd702e2ca6e7b745e8a5",
+        "e7b05ceeaf0a6312c679a41610f15b00bca1d4d9d96fd752715a6f7456a40431",
+        "a3b9549e724eaef51540665ca8053213e20b66800133b8057bdf743634ee2af7",
+        "66f99bf58c3e3371337f9fe8a4910fffa7f71c3b49812d86fe7476d449da6cab",
+        "7a6d777f99cef15e07e47c4bd4b8387c8225ad0187becb5ed143a0305c24332b",
+        "80ed4a35ffbce566ba7ef96eaffb5633e01dbd47f66c00ff26a214738c3b9f7d",
+        "55feddf449eb82d90cf39c75b8000bf8af46f0b1425ea92845cc659e6fe9fd27",
+        "a66e1437e78722b8a6a50e6d11809d37a304232296cd9ce405a16488d6525ee8",
+        "54142a7b108ad1ba3f314e28fc7f98d5fc587039e0f665df6efe36ece806682e",
+        "acc84ff8b2f080e534cf59edad33712daaa11f12ab22572a153d7829d61850f4",
+        "1eb605bf5e043daf124837244b4ec05c0cdd8e471d756a914880008fab591ab8",
+        "0c74cc4d41e37a02061507ee173e41c01e8122bc6dbb010c02f9622741fefc9e",
+        "9e7a506c9e400e01f5305f112f2b82b7c499f79c44c2f8a890c2f1b65f5dba60",
+        "0d03838a5e540ea435833d6664fac3acfe1c38f7375dd45fd46e2374662a99ec",
+        "82f748c0a4b79371c58a1ac34f542890d6adeabc6dbc40efc1f6d16180ff1be2",
+        "7eb657694ecbe6002568a1fe475cb03016f713c3315e02e322c3d058bca890b5",
+        "30dc7335d9ab5668512572317a561b01131b5635cfeb0bf7e1f11274df7a011f",
+        "935c9d5b3db3e03cedbb5934f0ee9be170441d4d61a9540423d3e6e36ffdb9f3",
+        "d00aaaae32500278d63cd89d66b5d9e913f6bb9faa03d8d9bc956d7e2b8ca367",
+        "08be167b8ece37e8e809747f52295b788af304afd13f7769f72dff6d33bdd756",
+        "22071e47d580917c749d4416be6bf86300ac55921e21895dc921dc575a0e57ed",
+        "ccc344a446027c5f2d80b27d2d4a0196a8806bbbdbef6b5965934aaa2d3aeb41",
+        "61b335a95f06902123eb5ef707ae49188c9b344c14462a34ba3cce579dddd95f",
+        "ab9416e58651c8fedf1a468ec985c54846730a82da1f61e1552b51f681f51463",
+        "712ed29775198e08385341f26ea87ae2fc313c2b2ff2914e9bdda7e534bf0271",
+        "846be15c633701938f7dd8b60af051a66f725c278ec55e34d626ed2b625a11c5",
         "9f4e9187c38a79d184100d59e1a254fa8aab64417f8ecea6608ea5743abc7b3c",
         "2f1a60b810b5cb8e497179a1bfa6cabde637f6310c63eb29c5c272c5055b269c",
         "f71d40a0aa38fbab7ff9e7b3bde25ac4e458bd5efa1ed6b2f674288c9933815b",
@@ -4239,53 +4458,23 @@
         "7b6a685c854c31f5d8ef1e0672237688042bd1397ddfbba378b6b0230d19a65d",
         "659f92e8e394a6bc077a756c6d183b65670db5bd24972df3a2283b80ad93b29f",
         "f4d1e389b7931c63796c34d82b441351563354af8db44bb90fa816ad72fccf11",
-        "002a2058d0bb4bfb7bc941b226472ccbf82e54b581f2fabf7a727a272bef6c5e",
-        "002a2058d0bb4bfb7bc941b226472ccbf82e54b581f2fabf7a727a272bef6c5e",
-        "6dfef4d1b100d8be0da95d6d4ea620850b7e037c87b2d36a0a32f9d46ae626ce",
-        "51ffa4d58c94891883c4b591cb0bed0cb694d625bd5b150108561c3127133103",
-        "657c284fac9b8beed90aab8cfccf19fd5966169b6f1f99d65ee842b1bc6fa214",
-        "e38aff7615662893d3624fe0fded2e00bb7fb41fe3145efc2e12162da463cae3",
-        "9d9a4c55953c10abafa636ad14c9852cec8a1806bf0d8783523188a0a016f463",
-        "0c5f9861197e3c86c5c8eebe42ffe1b64566690484696739cb312735b379bbaf",
-        "0c5f9861197e3c86c5c8eebe42ffe1b64566690484696739cb312735b379bbaf",
-        "64ac6391521418d594ff7680502de47728191cec932845b70028d64bd8a5803e",
-        "f514c6671703e218c113c6e30c33d0b8bc15e3a5a62d4849559f13cbd25258ae",
-        "fa7043d96bb9d9b514f333f89cc0444930b128d00eb10cbf4f2e3b784452074e",
-        "a6e380434cf6e357bc1009a863555c0742b8d69c967d9e2d47cbb320a22af711",
-        "e9deb236a066ae9a2d582b95b524acbf9f5bb3d05b53c160cf86a5c2224adeed",
-        "61513c888360fe501a38261cf51e501739163717604c02f5fea10e58a2cf530b",
-        "5a7ace87c0c306e8915d14246e359407cebd6c4964334d792a84187d56ebfbc4",
-        "0e1771158d44891d45250e2099c092a46ad99f8e29793bfd80e99c5650cc2380",
-        "040d5035c7c70ca3c5a3b5907fdaaff6af90ff0c055de2b542efd77d514479a4",
-        "d083359d4a985de596b66b33ce890a04c64598023f38b1da71f9d76a63471d02",
-        "804951c084a0b00391af7ad93714a5a9a6061ebf552cbb1e672d09c5e0e8e4a5",
-        "4027b4d494f08e106af340fcb4b2df264fc8cc1d4901da065c628f3100256c2f",
-        "935e0b89184aa3b6f581817aeaf45e3a95f1b7a9cee4b85b11d736cbb8bd991d",
-        "885a9c7a06beac63fe7c25966b51b84b0962bc6b0d1b460e7c33e08fc22982cc",
-        "61e51198053d53a9a49c647ac6a2251339a91cb6bb725485c907566c56c3849d",
-        "d6b598733801f7972b7768984944d2f8403fcfe8a0a944caa49a311a5b3cbd55",
-        "b5521a4bb2a419bd09806be7e047eb271cd255c7132dc4624f791b75ab08dcb7",
-        "5ad4110719ed0f550ebb9f1109d8a3d7113068451ffe5cb43ed7a366730f4e37",
-        "7156eff9a3c73b9cb947140ec41b76edafda389b03b24c32cabe6b339cc600b2",
-        "121418276012da41fc98d23702f50d9aff8d6a24e94cab8b9c0010ed5574887e",
-        "2f49a5ccdcca3a7683ee7b553352a431320840644818396a2da1305f9d779bac",
-        "c8d6d5986f6927da2d676e52ee8e470b99f277c7f433258b9341ee1288e6780e"
+        "002a2058d0bb4bfb7bc941b226472ccbf82e54b581f2fabf7a727a272bef6c5e"
       ],
-      "last_checked": "2026-05-20T22:38:02.288889+00:00",
+      "last_checked": "2026-05-20T23:08:37.375197+00:00",
       "last_error": null
     },
     "x_docs_github": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-20T22:38:02.288889+00:00",
-      "last_commit_sha": "9a8875caa1074c6ddc268d1484dd5c8c53196d06",
+      "last_checked": "2026-05-20T23:08:37.375197+00:00",
+      "last_commit_sha": "92bafafd78e462bc67432b498841f06e8c8d3b8b",
       "last_error": null
     },
     "x_status": {
       "backup_alert_active": false,
       "consecutive_failures": 0,
-      "content_hash": "sha256:2326bab2ee8cbcc46be1085d6edbb263173c8e317c442ddec7a6c9e1538db7a5",
+      "content_hash": "sha256:1bb4a5d0f8b76449d119b9f59b589f6fc0a1d40d9522c5e9c53119304261f32d",
       "incident_alerted": false,
-      "last_checked": "2026-05-20T22:38:02.288889+00:00",
+      "last_checked": "2026-05-20T23:08:37.375197+00:00",
       "last_error": null,
       "pending_incident_since": null,
       "phase": "operational",
@@ -4295,7 +4484,7 @@
     },
     "xdevelopers_tweets": {
       "consecutive_failures": 0,
-      "last_checked": "2026-05-20T22:38:02.288889+00:00",
+      "last_checked": "2026-05-20T23:08:37.375197+00:00",
       "last_error": null
     }
   },
